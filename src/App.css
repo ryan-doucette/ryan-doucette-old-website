@@ -2,16 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.InnerCircle {
+  animation: InnerCircleSpin infinite 20 sec linear;
+}
+
+@keyframes InnerCircleSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .InnerCircle {
+    animation: InnerCircleSpin infinite 20s linear;
   }
 }
+
+.OuterCircle {
+  animation: OuterCircleSpin infinite 10 sec reverse;
+}
+
+@keyframes OuterCircleSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .OuterCircle {
+    animation: OuterCircleSpin infinite 10s reverse;
+  }
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +57,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
