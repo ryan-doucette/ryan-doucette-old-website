@@ -1,0 +1,20 @@
+.name_and_circles_container{
+    overflow-x: hidden;
+    max-width: 150%;
+}
+
+.nameContainer {
+    /* height: 20vh */
+}
+
+.innerCircleContainer {
+    /* height: 60vh */
+}
+
+.outerCircleContainer {
+    /* height: 50vh */
+}
+
+.outerCircleImg {
+    /* background-image: url('/Users/ryandoucette/Documents/personal-website/outer_circle.png'); */
+}

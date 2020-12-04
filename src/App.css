@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
-
 .InnerCircle {
-  animation: InnerCircleSpin infinite 20 sec linear;
+  animation: InnerCircleSpin infinite 10 sec linear;
 }
 
 @keyframes InnerCircleSpin {
@@ -18,7 +19,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .InnerCircle {
-    animation: InnerCircleSpin infinite 20s linear;
+    animation: InnerCircleSpin infinite 6s linear;
   }
 }
 
@@ -41,6 +42,10 @@
   }
 }
 
+.NameInCircle {
+  animation: InnerCircleSpin infinite 10s reverse;
+}
+ 
 
 .App-header {
   background-color: #282c34;
