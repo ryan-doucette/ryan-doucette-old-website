@@ -1,21 +1,22 @@
 @media (min-width: 1151px) {
-.ClickIcons {
-    position: absolute;
-    top: 47vh;
-    left: 220px; 
-    height: 2vh;
-    flex-direction: row;
-    display: flex;
-}
-.MailContainer {
-    height: 5.5vh;
-}
-.LIContainer {
-    height: 5.5vh;
-}
-.GHContainer {
-    height: 5.5vh;
-}
+    .ClickIcons {
+        position: absolute;
+        top: 47vh;
+        left: 220px; 
+        height: 2vh;
+        flex-direction: row;
+        display: flex;
+    }
+    .MailContainer {
+        height: 5.5vh;
+        
+    }
+    .LIContainer {
+        height: 5.5vh;
+    }
+    .GHContainer {
+        height: 5.5vh;
+    }
 }
 
 @media (max-width: 1150px) {
