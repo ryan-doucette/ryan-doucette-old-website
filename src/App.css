@@ -4,7 +4,7 @@
   max-width: 100%;
 }
 
-.InnerCircle {
+.InnerCircleRotate {
   animation: InnerCircleSpin infinite 10 sec linear;
 }
 
@@ -18,12 +18,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .InnerCircle {
+  .InnerCircleRotate {
     animation: InnerCircleSpin infinite 6s linear;
   }
 }
 
-.OuterCircle {
+.OuterCircleRotate {
   animation: OuterCircleSpin infinite 10 sec reverse;
 }
 
@@ -37,15 +37,10 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .OuterCircle {
+  .OuterCircleRotate {
     animation: OuterCircleSpin infinite 10s reverse;
   }
 }
-
-.NameInCircle {
-  animation: InnerCircleSpin infinite 10s reverse;
-}
- 
 
 .App-header {
   background-color: #282c34;

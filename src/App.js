@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Icons from './header_comps/icons';
 import NameAndCircles from './body_comps/name_and_circles';
-import Greeting from './body_comps/greeting';
+import TopScreen from './body_comps/TopScreen';
 
 class App extends Component {
   render() {
@@ -11,9 +10,7 @@ class App extends Component {
 
         <NameAndCircles />
 
-        <Icons />
-
-        <Greeting />
+        <TopScreen />
 
       </div>
     );

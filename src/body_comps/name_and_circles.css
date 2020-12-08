@@ -1,20 +1,120 @@
+@media (max-width: 1151px) {}
+.CircleContainer {
+    height: 100vh;
+    position: absolute;
+    top: 0vh;
+    right: 18vw;
+    align-items: center;
+    display: flex;
+} 
+
+.CircleStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.OuterCircleDim {
+    height: 64.5vh;
+    width: 64.5vh;
+}
+
+.InnerCircleDim {
+    height: 50vh;
+    width: 50vh;
+}
+
+
+@media (max-width: 1150px) { 
+    .CircleContainer {
+        width: 50vw;
+        position: absolute;    
+        left: 25vw;
+        right: 25vw;
+        align-items: center; 
+        align-content: center;
+        display: flex;
+    } 
+}
+
+@media (max-width: 950px) { 
+    .CircleContainer {
+        width: 50vw;
+        position: absolute;   
+        top: -4vh; 
+        left: 25vw;
+        right: 25vw;
+        align-items: center; 
+        align-content: center;
+        display: flex;
+    } 
+    .OuterCircleDim {
+        height: 50vh;
+        width: 50vh;
+    }
+    
+    .InnerCircleDim {
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
 .name_and_circles_container{
     overflow-x: hidden;
     max-width: 150%;
 }
 
-.nameContainer {
-    /* height: 20vh */
+@media (max-width: 550px) { 
+    .CircleContainer {
+        width: 84vw;
+        position: absolute;   
+        top: -8vh; 
+        left: 8vw;
+        right: 8vw;
+        align-items: center; 
+        align-content: center;
+        display: flex;
+    } 
+    .OuterCircleDim {
+        height: 84vw;
+        width: 84vw;
+    }
+    
+    .InnerCircleDim {
+        height: 69vw;
+        width: 69vw;
+    }
 }
 
-.innerCircleContainer {
-    /* height: 60vh */
+@media (max-width: 550px) and (max-height: 710px) { 
+    .CircleContainer {
+        height: 50vh;
+        position: absolute;   
+        top: 17vh; 
+        left: 8vw;
+        right: 8vw;
+        align-items: center; 
+        align-content: center;
+        display: flex;
+    } 
+    .OuterCircleDim {
+        height: 50vh;
+        width: 50vh;
+    }
+    
+    .InnerCircleDim {
+        height: 40vh;
+        width: 40vh;
+    }
 }
 
-.outerCircleContainer {
-    /* height: 50vh */
-}
-
-.outerCircleImg {
-    /* background-image: url('/Users/ryandoucette/Documents/personal-website/outer_circle.png'); */
+.name_and_circles_container{
+    overflow-x: hidden;
+    max-width: 150%;
 }

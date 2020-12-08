@@ -1,0 +1,82 @@
+@media (min-width: 1151px) {
+.ClickIcons {
+    position: absolute;
+    top: 47vh;
+    left: 220px; 
+    height: 2vh;
+    flex-direction: row;
+    display: flex;
+}
+.MailContainer {
+    height: 5.5vh;
+}
+.LIContainer {
+    height: 5.5vh;
+}
+.GHContainer {
+    height: 5.5vh;
+}
+}
+
+@media (max-width: 1150px) {
+    .ClickIcons {
+        width: 235px;
+        position: absolute;
+        top: 11.5vh;
+        right: 0px;
+        display: flex;
+    }
+    .MailContainer {
+        height: 5.5vh;
+    }
+    .LIContainer {
+        height: 5.5vh;
+    }
+    .GHContainer {
+        height: 5.5vh;
+    }
+}
+
+@media (max-width: 950px) {
+    .ClickIcons {
+        width: 155px;
+        position: absolute;
+        top: 11.5vh;
+        right: 0px;
+        display: flex;
+    }
+    .MailContainer {
+        height: 4.5vh;
+    }
+    .LIContainer {
+        height: 4.5vh;
+    }
+    .GHContainer {
+        height: 4.5vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .ClickIcons {
+        width: 140px;
+        position: absolute;
+        top: 6.5vh;
+        right: 0px;
+        display: flex;
+    }
+    .MailContainer {
+        position: absolute;
+        height: 4vh;
+        right: 40px;
+    }
+    .LIContainer {
+        position: absolute;
+        height: 4vh;
+        right: 30px;
+    }
+    .GHContainer {
+        position: absolute;
+        height: 4vh;
+        right: 20px;
+    }
+}
