@@ -4,44 +4,6 @@
   max-width: 100%;
 }
 
-.InnerCircleRotate {
-  animation: InnerCircleSpin infinite 10 sec linear;
-}
-
-@keyframes InnerCircleSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .InnerCircleRotate {
-    animation: InnerCircleSpin infinite 6s linear;
-  }
-}
-
-.OuterCircleRotate {
-  animation: OuterCircleSpin infinite 10 sec reverse;
-}
-
-@keyframes OuterCircleSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .OuterCircleRotate {
-    animation: OuterCircleSpin infinite 10s reverse;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -57,4 +19,17 @@
   color: #61dafb;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Nice yellow color */
+  /* background-color: rgb(232, 178, 0); */
+  /* background-color: #FDED9E; */
+  background-color: rgb(33, 33, 33);
+  font: "HelveticaNeue-Light";
+}
 

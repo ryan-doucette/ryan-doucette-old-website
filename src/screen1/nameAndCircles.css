@@ -1,0 +1,138 @@
+/* default: container and circle style */
+.CircleContainer {
+    position: absolute;
+    align-items: center; 
+    align-content: center;
+    display: flex;
+    height: 100vh;
+    top: 0vh;
+    right: 18vw;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.CircleStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* default: circle size */
+.OuterCircleDim {
+    height: 64.5vh;
+    width: 64.5vh;
+}
+.InnerCircleDim {
+    height: 50vh;
+    width: 50vh;
+}
+
+/* breakpoint 1: circle resizing */
+@media (max-width: 1150px) { 
+    .CircleContainer {
+        width: 580px;
+        left: 25vw;
+        right: 25vw;
+    } 
+}
+
+/* breakpoint 2: circle resizing  */
+@media (max-width: 950px) { 
+    .CircleContainer {
+        width: 450px;
+        top: -4vh; 
+        left: 25vw;
+        right: 25vw;
+    } 
+    .OuterCircleDim {
+        height: 50vh;
+        width: 50vh;
+    }
+    .InnerCircleDim {
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
+/* breakpoint 3: circle resizing  */
+@media (max-width: 602px) { 
+    .CircleContainer {
+        width: 84vw; 
+        top: -8vh; 
+        left: 8vw;
+        right: 8vw;
+    } 
+    .OuterCircleDim {
+        height: 84vw;
+        width: 84vw;
+    }
+    .InnerCircleDim {
+        height: 69vw;
+        width: 69vw;
+    }
+}
+
+/* breakpoint 4: circle resizing  */
+@media (max-width: 602px) and (max-height: 710px) { 
+    .CircleContainer {
+        height: 50vh;
+        top: 17vh; 
+        left: 8vw;
+        right: 8vw;
+    } 
+    .OuterCircleDim {
+        height: 50vh;
+        width: 50vh;
+    }
+    .InnerCircleDim {
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .speedUpOuter:hover {
+      animation: OuterCircleSpin infinite 0.25s reverse;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .speedUpInner:hover {
+      animation: OuterCircleSpin infinite 1s reverse;
+    }
+  }
+
+/* animates inner circle */
+@keyframes InnerCircleSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .InnerCircleRotate {
+    animation: InnerCircleSpin infinite 6s linear;
+  }
+}
+
+/* animates outer circle */
+@keyframes OuterCircleSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .OuterCircleRotate {
+    animation: OuterCircleSpin infinite 10s reverse;
+  }
+}

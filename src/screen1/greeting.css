@@ -1,0 +1,91 @@
+/* default: text style and positionings */
+.textStyle {  
+    color:transparent;
+    font-size: 4vh;
+    letter-spacing: 2.5px;
+    font-Family: 'HelveticaNeue-Light';
+    text-Align: left;
+    left: 130px;
+    text-decoration: none;
+    position: absolute;
+}
+.textPos1 {
+    top: 11vh;
+}
+.textPos2 {
+    top: 16.5vh;
+}
+.textPos3 {
+    top: 22vh;
+}
+.textPos4 {
+    top: 70vh;
+}
+.textPos5 {
+    top: 79vh;
+}
+.textPos6 {
+    top: 88vh;
+}
+
+/* break-point 2: text style and positionings */
+@media (max-width: 950px) {
+    .textStyle {
+        font-size: 3vh;
+    }
+    .textPos1 {
+        top: 11vh;
+        left: 40px;
+    }
+    .textPos2 {
+        top:15vh;
+        left: 40px;
+    }
+    .textPos3 {
+        top: 19vh;
+        left: 40px;
+    }
+    .textPos4 {
+        top:70vh;
+        left: 40px;
+    }
+    .textPos5 {
+        top:77vh;
+        left: 40px;
+    }
+    .textPos6 {
+        top:84vh;
+        left: 40px;
+    }
+}
+
+/* break-point 3: text style and positionings */
+@media (max-width: 602px) {
+    .textStyle {
+        font-size: 2.5vh;
+    }
+    .textPos1 {
+        top: 5.8vh;
+        left: 30px;
+    }
+    .textPos2 {
+        top: 9.5vh;
+        left: 30px;
+    }
+    .textPos3 {
+        top: 13.2vh;
+        left: 30px;
+    }
+    .textPos4 {
+        top:67vh;
+        left: 30px;
+    }
+    .textPos5 {
+        top:74vh;
+        left: 30px;
+    }
+    .textPos6 {
+        top:81vh;
+        left: 30px;
+    }
+}

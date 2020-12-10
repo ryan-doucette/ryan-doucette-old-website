@@ -1,0 +1,50 @@
+/* Underline animation when hovering over 3 links */
+.effect-underline:after {
+	content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 0.2vh solid;
+    margin-top: 10px;
+    opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    color: white;
+}
+.effect-underline:hover:after {
+    opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Text on left side of screen animation */
+.fade {
+    -webkit-animation: fadeIt 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIt {
+    0% {color: transparent}
+    100% {color: white;}
+}
+.fadeDelay1 {
+    animation-delay: 0s;
+}
+.fadeDelay2 {
+    animation-delay: 0.4s;
+ }
+.fadeDelay3 {
+    animation-delay: 0.8s;
+}
+.fadeDelay4 {
+    animation-delay: 1.2s;
+    }
+.fadeDelay5 {
+    animation-delay: 2s;
+}
+.fadeDelay6 {
+        animation-delay: 2.8s;
+}
