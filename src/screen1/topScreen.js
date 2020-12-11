@@ -25,7 +25,7 @@ class TopScreen extends Component {
                             <div className='IconStyle grow' style={{ backgroundImage: `url(${mail_logo})`, position: 'relative', right: '90px' }}></div>
                         </a>
                     </div>
-                    <div className='LIContainer'>
+                    <div className='LIContainer' >
                         <a href="https://www.linkedin.com/in/ryan-doucette/">
                             <div className='IconStyle grow' style={{ backgroundImage: `url(${linkedIn_logo})`, position: 'relative', right: '45px' }}></div>
                         </a>

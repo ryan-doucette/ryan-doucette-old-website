@@ -11,8 +11,6 @@ flip:focus {
 }
 
 flip.flip-animate {
-  // perspective: 2500;
-  
   span {
     position: relative;
     display: inline-block;
@@ -42,7 +40,7 @@ flip.flip-animate {
   
   &:hover span:before,
   &:focus span:before {
-    color: rgb(0, 189, 252);
+    color: rgb(186, 137, 255);
     font-size: 3.7vh;
     font-family: Comic Sans MS, Comic Sans, cursive;
   }

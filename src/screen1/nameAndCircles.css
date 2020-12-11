@@ -119,6 +119,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .InnerCircleRotate {
     animation: InnerCircleSpin infinite 6s linear;
+    /* animation-delay: 10s; */
   }
 }
 
