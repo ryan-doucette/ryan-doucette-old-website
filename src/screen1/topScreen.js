@@ -10,6 +10,7 @@ import "./textAnimations.css"
 
 
 class TopScreen extends Component {
+
     render() {
         return (
             // container for text and icons on top screen
@@ -37,15 +38,13 @@ class TopScreen extends Component {
                     </div>
                 </div>
                 {/* shortcut links to other parts of webpage */}
-                <a href='https://www.google.com/' style={{ textDecoration: 'none' }}>
-                    <div className='textStyle textPos4 effect-underline fade fadeDelay4' >About Me</div>
-                </a>
-                <a href='https://www.google.com/' style={{ textDecoration: 'none' }}>
-                    <div className='textStyle textPos5 effect-underline fade fadeDelay5'>Projects</div>
-                </a>
-                <a href='https://www.google.com/' style={{ textDecoration: 'none' }}>
-                    <div className='textStyle textPos6 effect-underline fade fadeDelay6'>Work</div>
-                </a>
+                <div className='textStyle textPos4 effect-underline fade fadeDelay4' style={{ cursor: 'pointer' }}
+                    onClick={() => { document.getElementById('About Me').scrollIntoView({ behavior: "smooth" }) }}>About Me</div>
+                <div className='textStyle textPos5 effect-underline fade fadeDelay5' style={{ cursor: 'pointer' }}
+                    onClick={() => { document.getElementById('Projects').scrollIntoView({ behavior: "smooth" }) }} >Projects</div>
+                <div className='textStyle textPos6 effect-underline fade fadeDelay6' style={{ cursor: 'pointer' }}
+                    onClick={() => { document.getElementById('Work').scrollIntoView({ behavior: "smooth" }) }}>Work</div>
+
             </div>
         );
     }

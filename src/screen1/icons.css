@@ -15,7 +15,7 @@
 @media (min-width: 1151px) {
     .IconsContainer {
         position: absolute;
-        top: 47vh;
+        top: 44vh;
         left: 220px; 
         height: 2vh;
         flex-direction: row;

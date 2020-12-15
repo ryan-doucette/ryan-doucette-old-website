@@ -1,0 +1,10 @@
+.border {
+background-image: linear-gradient(to right, #212121 33%,white 0%);
+background-position: bottom;
+background-size: 5vh 0.1vh;
+background-repeat: repeat-x;
+/* top: 40px; */
+/* position: absolute */
+
+}
+

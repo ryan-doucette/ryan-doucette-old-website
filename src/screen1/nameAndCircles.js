@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import inner_circle from './circleImgs/inner_circle.png';
 import outer_circle from './circleImgs/outer_circle.png';
+// import animation from './circleImgs/optimizedTest.gif';
 // import name_in_circle from './circle_imgs/name_in_circle.png';
 import './nameAndCircles.css'
 import './nameAnimation.scss'
@@ -12,6 +13,8 @@ class NameAndCircles extends Component {
         return (
             // container for whole nested image/animation
             <div className='CircleContainer'>
+
+                {/* <div className='CircleStyle OuterCircleDim ' style={{ height: '95vh', backgroundImage: `url(${animation})` }}></div> */}
 
                 {/* image containing my name (no animation applied) NO LONGER USING BUT KEEPING IN CASE OF REVERT */}
                 {/* <div className='CircleStyle OuterCircleDim ' style={{ backgroundImage: `url(${name_in_circle})` }}> */}

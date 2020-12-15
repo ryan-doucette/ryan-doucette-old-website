@@ -1,0 +1,106 @@
+.dropdownContainer {
+    position: absolute;
+    background-color: #393939;
+    display: inline-block;
+    height: 6.25vh; 
+    width: 20vh;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    right:130px;
+    top:-3vh;
+    border-radius: 3vh;
+}
+
+.submenu {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    max-height:0vh;
+    transition: max-height 0.5s ease-in; 
+    color: white;
+    cursor: pointer;
+    background-color: #393939;
+    text-decoration: none;
+    font-size: 2.3vh;
+    font-Family: 'HelveticaNeue-Light';
+    text-Align: left;
+    width: 20vh;
+    height: 23vh;
+    top: 0vh;
+    border-radius: 3vh;
+}
+
+.submenu item {
+    color: white;
+    cursor: pointer;
+    left: 1vh;
+    width: 20vh;
+    height: 5vh;
+    display: block;
+    text-decoration: none;
+}
+
+.textContainer {
+    position: relative;
+}
+
+.selectionStyle {
+  width: 11vh;
+    height: 4.9vh;
+    padding: 1vh 0;
+    position: relative;
+    left: 5vh;
+    text-decoration: none;
+    font-size: 2.3vh;
+    font-Family: 'HelveticaNeue-Light';
+    text-align: left;
+    color: white;
+}
+
+.dropdownContainer:hover .submenu {
+    max-height: 25vh;
+    background-color: #4a4a4a;
+}
+
+.dropdownIcon {
+    background-image: url(../src/DropdownImgs/downArrow.png);
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 6vh;
+  }
+
+.dropdownContainer:hover .dropdownIcon { 
+    background-color: #4a4a4a; 
+    background-image: none; 
+    border-radius: 3vh;
+}
+
+.submenu item:hover {
+    background-color: rgb(104, 104, 104); 
+    text-align: center;
+}
+
+@media (max-width: 950px) {
+    .dropdownContainer {
+        right: 40px;
+    }
+}
+
+@media (max-width: 602px) {
+    .dropdownContainer {
+        width: 15vh;
+        right: 25px;
+    }
+    .submenu {
+        width: 15vh;
+    }
+    .selectionStyle  {
+        left: 2.75vh;
+    }
+}

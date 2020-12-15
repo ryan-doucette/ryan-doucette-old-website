@@ -10,22 +10,22 @@
     position: absolute;
 }
 .textPos1 {
-    top: 11vh;
+    top: 8vh;
 }
 .textPos2 {
-    top: 16.5vh;
+    top: 13.5vh;
 }
 .textPos3 {
-    top: 22vh;
+    top: 19vh;
 }
 .textPos4 {
-    top: 70vh;
+    top: 67vh;
 }
 .textPos5 {
-    top: 79vh;
+    top: 76vh;
 }
 .textPos6 {
-    top: 88vh;
+    top: 85vh;
 }
 
 /* break-point 2: text style and positionings */
