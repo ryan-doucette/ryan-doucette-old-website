@@ -20,6 +20,7 @@
         height: 2vh;
         flex-direction: row;
         display: flex;
+        transition: all .3s ease-in-out;
     }
     .MailContainer {
         height: 5.5vh;
@@ -43,6 +44,7 @@
         top: 11.5vh;
         right: 0px;
         display: flex;
+        transition: all .3s ease-in-out;
     }
     .MailContainer {
         height: 5.5vh;
@@ -66,6 +68,7 @@
         top: 11.5vh;
         right: 0px;
         display: flex;
+        transition: all .3s ease-in-out;
     }
     .MailContainer {
         height: 4.5vh;
@@ -89,6 +92,7 @@
         top: 6.5vh;
         right: 0px;
         display: flex;
+        transition: all .3s ease-in-out;
     }
     .MailContainer {
         position: absolute;

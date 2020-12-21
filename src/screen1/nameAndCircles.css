@@ -9,6 +9,7 @@
     right: 18vw;
     max-width: 100%;
     overflow-x: hidden;
+    transition: all .3s ease-in-out;
 }
 .CircleStyle {
     margin-left: auto;

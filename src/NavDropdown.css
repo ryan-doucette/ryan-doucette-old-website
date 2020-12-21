@@ -10,6 +10,7 @@
     right:130px;
     top:-3vh;
     border-radius: 3vh;
+    z-index: 999;
 }
 
 .submenu {
@@ -43,16 +44,20 @@
 
 .textContainer {
     position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
 .selectionStyle {
-  width: 11vh;
+    width: 14vh;
     height: 4.9vh;
-    padding: 1vh 0;
+    padding: 0.75vh 0;
     position: relative;
-    left: 5vh;
+    left: 3.4vh;
     text-decoration: none;
-    font-size: 2.3vh;
+    font-size: 2.9vh;
+    letter-spacing: 0.15vh;
     font-Family: 'HelveticaNeue-Light';
     text-align: left;
     color: white;
@@ -101,6 +106,8 @@
         width: 15vh;
     }
     .selectionStyle  {
-        left: 2.75vh;
+        left: 2vh;
+        font-size: 2.45vh;
+        padding: 1vh 0;
     }
 }

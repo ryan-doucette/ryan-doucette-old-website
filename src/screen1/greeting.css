@@ -11,21 +11,27 @@
 }
 .textPos1 {
     top: 8vh;
+    transition: all .3s ease-in-out;
 }
 .textPos2 {
     top: 13.5vh;
+    transition: all .3s ease-in-out;
 }
 .textPos3 {
     top: 19vh;
+    transition: all .3s ease-in-out;
 }
 .textPos4 {
     top: 67vh;
+    transition: all .3s ease-in-out;
 }
 .textPos5 {
     top: 76vh;
+    transition: all .3s ease-in-out;
 }
 .textPos6 {
     top: 85vh;
+    transition: all .3s ease-in-out;
 }
 
 /* break-point 2: text style and positionings */

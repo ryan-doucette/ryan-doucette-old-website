@@ -10,7 +10,6 @@ import "./textAnimations.css"
 
 
 class TopScreen extends Component {
-
     render() {
         return (
             // container for text and icons on top screen
