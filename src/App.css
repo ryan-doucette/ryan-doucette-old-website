@@ -33,3 +33,14 @@ body {
   font: "HelveticaNeue-Light";
 }
 
+.resumeScreen {
+  height: 40vh;
+}
+
+@media (max-width: 460px) {
+  .resumeScreen {
+    height: 25vh;
+  }
+}
+
+

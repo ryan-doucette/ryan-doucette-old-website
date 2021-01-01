@@ -7,6 +7,8 @@ import NavDropdown from '/Users/ryandoucette/Documents/personal-website/src/NavD
 import '/Users/ryandoucette/Documents/personal-website/src/border.css';
 import Screen2 from '/Users/ryandoucette/Documents/personal-website/src/screen2/Screen2.js'
 import Screen3 from '/Users/ryandoucette/Documents/personal-website/src/screen3/Screen3.js'
+import Screen4 from '/Users/ryandoucette/Documents/personal-website/src/screen4/Screen4.js'
+import Resume from '/Users/ryandoucette/Documents/personal-website/src/resumeSection/Resume.js'
 
 class App extends Component {
   render() {
@@ -31,6 +33,10 @@ class App extends Component {
           <Screen3 />
         </div>
         <div className='screen4 border' id='Work' style={{ height: '100vh' }}>
+          <Screen4 />
+        </div>
+        <div className='resumeScreen border'>
+          <Resume />
         </div>
         <NavDropdown />
       </div >

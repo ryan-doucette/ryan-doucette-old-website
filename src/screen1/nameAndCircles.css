@@ -65,18 +65,17 @@
 /* breakpoint 3: circle resizing  */
 @media (max-width: 602px) { 
     .CircleContainer {
-        width: 84vw; 
+        width: 75vw; 
         top: -8vh; 
-        left: 8vw;
-        right: 8vw;
+        left: 12vw;
     } 
     .OuterCircleDim {
-        height: 84vw;
-        width: 84vw;
+        height: 75vw;
+        width: 75vw;
     }
     .InnerCircleDim {
-        height: 69vw;
-        width: 69vw;
+        height: 60vw;
+        width: 60vw;
     }
 }
 
@@ -97,6 +96,92 @@
         width: 40vh;
     }
 }
+
+/* breakpoint 5: circle resizing  */
+@media (max-width: 1234px) and (min-height: 875px) { 
+  .CircleContainer {
+    right: 9vw;
+  }   
+}
+
+/* breakpoint 6: circle resizing  */
+@media (max-width: 1150px) and (min-height: 875px) { 
+  .CircleContainer {
+    width: 495px;
+    top: -4vh; 
+    left: 28vw;
+    /* right: 25vw; */
+  } 
+  .OuterCircleDim {
+      height: 50vh;
+      width: 50vh;
+  }
+  .InnerCircleDim {
+      height: 40vh;
+      width: 40vh;
+  }
+}
+
+/* breakpoint 7: circle resizing  */
+@media (max-width: 950px) and (min-height: 875px) { 
+  .CircleContainer {
+    width: 495px;
+    top: -4vh; 
+    left: 23vw;
+  } 
+  .OuterCircleDim {
+      height: 50vh;
+      width: 50vh;
+  }
+  .InnerCircleDim {
+      height: 40vh;
+      width: 40vh;
+  }
+}
+
+/* breakpoint 8: circle resizing  */
+@media (max-width: 890px) and (min-height: 875px) { 
+  .CircleContainer {
+    height: 50vh;
+    top: 19vh; 
+    left: 20vw;
+  } 
+  .OuterCircleDim {
+      height: 50vh;
+      width: 50vh;
+  }
+  .InnerCircleDim {
+      height: 40vh;
+      width: 40vh;
+  }
+}
+
+/* breakpoint 9: circle resizing  */
+@media (max-width: 730px) and (min-height: 875px) { 
+  .CircleContainer {
+    width: 65vw; 
+    top: 20vh; 
+    left: 18vw;
+  } 
+  .OuterCircleDim {
+      height: 65vw;
+      width: 65vw;
+  }
+  .InnerCircleDim {
+      height: 55vw;
+      width: 55vw;
+  }
+}
+
+/* breakpoint 10: circle resizing  */
+@media (max-width: 602px) and (min-height: 875px) { 
+  .CircleContainer {
+    width: 65vw; 
+    top: 16vh; 
+    left: 15vw;
+  } 
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .speedUpOuter:hover {

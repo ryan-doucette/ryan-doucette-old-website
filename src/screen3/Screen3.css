@@ -1,8 +1,4 @@
-.container {
-
-}
-
-.topSection {
+.innerContainer3 {
     position: relative;
     top: 0.1vh;
     height: 22vh;
@@ -20,7 +16,7 @@
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +38,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    transform-origin: top;
+    transition: all .5s ease-in-out;
 }
 .bulb2 {
     background-image: url(../screen3/Screen3Imgs/bulb2.png);
@@ -51,6 +49,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    transform-origin: top;
+    transition: all .5s ease-in-out;
 }
 .brokenBulb {
     background-image: url(../screen3/Screen3Imgs/brokenBulb.png);
@@ -60,8 +60,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    transform-origin: top;
+    transition: all .5s ease-in-out;
 }
-.placeHolderText {
+.placeHolderText1 {
     position: absolute;
     font-Family: 'HelveticaNeue-Light';
     font-size: 13vh;
@@ -75,15 +77,122 @@
     display: flex;
     left: 30vw;
     top: 42.5vh;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .bulb1:hover {
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
 }
 
 .bulb2:hover {
     background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
+}
+
+.brokenBulb:hover {
+    -webkit-animation: wiggle 1.5s ease;
+    animation: wiggle 1.5s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+    content:url(../screen3/Screen3Imgs/bulbLit2.png) url(../screen3/Screen3Imgs/bulbLit1.png);  
+ }
+
+ .scrutinyContainer {
+    background-color: blueviolet;
+    /* width: 130vh; */
+    width: 75vw;
+    height: 63vh;
+    position: absolute;
+    top: 26vh;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+
+ .siteContainer {
+    background-color: green;
+    /* width: 130vh; */
+    width: 75vw;
+    height: 63vh;
+    position: absolute;
+    top: 26vh;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+
+.bulbPos1:hover ~ .scrutinyContainer {
+    opacity: 1;
+}
+.bulbPos1:hover ~ .placeHolderText1 {
+    opacity: 0;
+}
+
+.bulbPos2:hover ~ .siteContainer {
+    opacity: 1;
+}
+.bulbPos2:hover ~ .placeHolderText1 {
+    opacity: 0;
+}
+
+@keyframes wiggle {
+    0% 
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(7deg);
+    }
+    50% 
+    {
+        transform: rotate(-7deg);
+    }
+    75%
+    {
+        transform: rotate(7deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes slowWiggle {
+    0% 
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(4deg);
+    }
+    50%
+    {
+        transform: rotate(-4deg);
+    }
+    75%
+    {
+        transform: rotate(4deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 1300px) { 
+    .scrutinyContainer {
+        width: 75vw;
+    }
+    .siteContainer {
+        width: 75vw;
+    }
 }
 
 @media (max-width: 1120px) { 
@@ -93,9 +202,15 @@
     .brokenBulbPos {
         right: 23vw;
     }
-    .placeHolderText {
+    .placeHolderText1 {
         font-size: 12vh;
         letter-spacing: 0.3vh;
+    }
+    .scrutinyContainer {
+        width: 75vw;
+    }
+    .siteContainer {
+        width: 75vw;
     }
 }
 
@@ -106,9 +221,15 @@
     .brokenBulbPos {
         right: 15vw;
     }
-    .placeHolderText {
+    .placeHolderText1 {
         font-size: 10vh;
         letter-spacing: 0.3vh;
+    }
+    .scrutinyContainer {
+        width: 75vw;
+    }
+    .siteContainer {
+        width: 75vw;
     }
 }
 
@@ -119,8 +240,14 @@
     .brokenBulbPos {
         right: 6vw;
     }
-    .placeHolderText {
+    .placeHolderText1 {
         font-size: 7.5vh;
         letter-spacing: 0.2vh;
+    }
+    .scrutinyContainer {
+        width: 85vw;
+    }
+    .siteContainer {
+        width: 85vw;
     }
 }

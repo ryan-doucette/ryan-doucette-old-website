@@ -7,8 +7,8 @@ class Screen3 extends Component {
         return (
             // Full container
             <div className='container' style={{ height: '100vh', width: '100vw' }}>
-                <div className='topSection'>
-                    <div className='placeHolderText'>PROJECTS</div>
+                <div className='innerContainer3'>
+
                     <div className='bulbContainer bulbPos1'>
                         <div className='bulb1'></div>
                     </div>
@@ -18,6 +18,13 @@ class Screen3 extends Component {
                     <a className='bulbContainer brokenBulbPos' href='https://www.wikihow.com/Change-a-Light-Bulb'>
                         <div className='brokenBulb'></div>
                     </a>
+                    <div className='scrutinyContainer'>
+
+                    </div>
+                    <div className='siteContainer'>
+
+                    </div>
+                    <div className='placeHolderText1'>PROJECTS</div>
                 </div>
             </div>
         );

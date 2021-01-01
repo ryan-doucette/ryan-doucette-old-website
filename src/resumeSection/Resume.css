@@ -1,0 +1,259 @@
+.entireSection {
+    width: 100vw;
+    height: 40vh;
+}
+
+.resumeSectionContainer {
+    position: relative;
+    top: 0.1vh;
+    height: 39.9vh;
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s ease-in-out;
+}
+
+.resumeContainer {
+    width: 34vh;
+    height: 34vh;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s ease-in-out;
+}
+
+.resume {
+    width: 30vh;
+    height: 30vh;
+    background-image: url(../resumeSection/resumePics/resume.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .7s ease-in-out;
+}
+
+.decor {
+    width: 30vh;
+    height: 30vh;
+    background-image: url(../resumeSection/resumePics/decor.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .4s ease-in-out;
+    transform: scale(0);
+    cursor: pointer;
+}
+
+.resumeTrigger {
+    position: absolute;
+    width: 14vh;
+    height: 18vh;
+    z-index: 100;
+    transition: all .7s ease-in-out;
+    cursor: pointer;
+}
+
+.bottomPageTextStyle {
+    font-size: 3.35vh;
+    color: white;
+    letter-spacing: 2.5px;
+    font-Family: 'HelveticaNeue-Light';
+}
+
+.leftTextContainer {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 30vw;
+    transition: all .7s ease-in-out;
+}
+
+.thanks {
+    width: 30vw;
+    text-Align: left;
+    transition: all .7s ease-in-out;
+}
+
+.resumeText {
+    margin-top: 5vh;
+    width: 30vw;
+    text-Align: left;
+    transition: all .7s ease-in-out;
+}
+
+.rightTextContainer {
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    width: 30vw;
+    transition: all .7s ease-in-out;
+}
+
+.goodbye {
+    text-Align: center;
+    transition: all .7s ease-in-out;
+}
+
+.resumeTrigger:hover ~ .decor {
+    transform: scale(1);
+    animation: spinDecor 15s infinite linear;
+    animation-delay: 0.45s;
+    z-index: 1;
+}
+
+@keyframes spinDecor {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@media (max-width: 940px) {
+    .resumeContainer {
+        width: 27vh;
+        height: 27vh;
+    }
+    .resume {
+        width: 23vh;
+        height: 23vh;
+    }
+    .decor {
+        width: 23vh;
+        height: 23vh;
+    }
+    .resumeTrigger {
+        width: 10vh;
+        height: 13vh;
+    }
+}
+
+@media (max-width: 911px) {
+    .bottomPageTextStyle {
+        font-size: 2.8vh;
+    }
+    .leftTextContainer {
+        top: 9vh;
+    }
+    .rightTextContainer {
+        top: 9vh;
+    }
+}
+
+@media (max-width: 799px) {
+    .bottomPageTextStyle {
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 710px) {
+    .bottomPageTextStyle {
+        font-size: 2vh;
+    }
+    .resumeContainer {
+        width: 23vh;
+        height: 23vh;
+    }
+    .resume {
+        width: 19vh;
+        height: 19vh;
+    }
+    .decor {
+        width: 19vh;
+        height: 19vh;
+    }
+    .resumeTrigger {
+        width: 8vh;
+        height: 11vh;
+    }
+    .leftTextContainer {
+        top: 11vh;
+    }
+    .rightTextContainer {
+        top: 11vh;
+    }
+}
+
+@media (max-width: 615px) {
+    .bottomPageTextStyle {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width: 573px) {
+    .bottomPageTextStyle {
+        font-size: 1.5vh;
+    }
+    .resumeContainer {
+        width: 20vh;
+        height: 20vh;
+    }
+    .resume {
+        width: 16vh;
+        height: 16vh;
+    }
+    .decor {
+        width: 16vh;
+        height: 16vh;
+    }
+    .resumeTrigger {
+        width: 7vh;
+        height: 9vh;
+    }
+    .leftTextContainer {
+        top: 13vh;
+    }
+    .rightTextContainer {
+        top: 13vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .entireSection {
+        height: 25vh;
+    }
+    .resumeSectionContainer {
+        height: 24.9vh;
+        width: 100vw;
+    }
+    .bottomPageTextStyle {
+        font-size: 1.3vh;
+    }
+    .resumeContainer {
+        width: 18vh;
+        height: 18vh;
+    }
+    .resume {
+        width: 14vh;
+        height: 14vh;
+    }
+    .decor {
+        width: 14vh;
+        height: 14vh;
+    }
+    .resumeTrigger {
+        width: 7vh;
+        height: 9vh;
+    }
+    .resumeText {
+        margin-top: 3vh;
+    }
+    .leftTextContainer {
+        top: 6vh;
+    }
+    .rightTextContainer {
+        top: 6vh;
+    }
+}
