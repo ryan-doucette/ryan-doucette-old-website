@@ -8,8 +8,8 @@ class Resume extends Component {
             <div className='entireSection'>
                 <div className='resumeSectionContainer'>
                     <div className='leftTextContainer'>
-                        <div className='bottomPageTextStyle thanks'>Thanks for visiting my website.</div>
                         <div className='bottomPageTextStyle resumeText'>Feel free to check out my resume:</div>
+                        {/* <div className='bottomPageTextStyle resumeText'>Feel free to check out my resume:</div> */}
                     </div>
                     <div className='resumeContainer'>
                         <div className='resume'>
@@ -18,7 +18,7 @@ class Resume extends Component {
                         </div>
                     </div>
                     <div className='rightTextContainer'>
-                        <div className='bottomPageTextStyle goodbye'>Have a nice day.</div>
+                        <div className='bottomPageTextStyle thanks'>Thanks for visiting my website.</div>
                     </div>
                 </div>
             </div>

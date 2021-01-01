@@ -22,12 +22,13 @@
 }
 
 /* Text on left side of screen animation */
-.fade {
+.fade { 
+    animation: fadeIt 1s;;
     -webkit-animation: fadeIt 1s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeIt {
-    0% {color: transparent}
+    0% {color: transparent} 
     100% {color: white;}
 }
 .fadeDelay1 {

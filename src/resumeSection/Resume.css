@@ -65,7 +65,7 @@
 }
 
 .bottomPageTextStyle {
-    font-size: 3.35vh;
+    font-size: 3vh;
     color: white;
     letter-spacing: 2.5px;
     font-Family: 'HelveticaNeue-Light';
@@ -73,36 +73,34 @@
 
 .leftTextContainer {
     position: absolute;
-    top: 5vh;
     left: 5vw;
-    width: 30vw;
+    height: 39.9vh;
+    width: 33vw;
     transition: all .7s ease-in-out;
+    justify-content: flex-start; 
+    display: flex;
 }
 
 .thanks {
-    width: 30vw;
-    text-Align: left;
+    align-self: center;
+    width: 31vw;
     transition: all .7s ease-in-out;
 }
 
 .resumeText {
-    margin-top: 5vh;
-    width: 30vw;
-    text-Align: left;
+    align-self: center;
+    width: 31vw;
     transition: all .7s ease-in-out;
 }
 
 .rightTextContainer {
     position: absolute;
-    top: 5vh;
     right: 5vw;
-    width: 30vw;
+    height: 39.9vh;
+    width: 33vw;
     transition: all .7s ease-in-out;
-}
-
-.goodbye {
-    text-Align: center;
-    transition: all .7s ease-in-out;
+    justify-content: flex-end; 
+    display: flex;
 }
 
 .resumeTrigger:hover ~ .decor {
@@ -118,6 +116,43 @@
     }
     100% {
         transform: rotate(359deg);
+    }
+}
+
+@media (max-width: 1543px) {
+    .rightTextContainer {
+        right: 3vw
+    }
+    .leftTextContainer {
+        left: 3vw
+    }
+}
+
+@media (max-width: 1350px) {
+    .bottomPageTextStyle {
+        font-size: 3vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .bottomPageTextStyle {
+        font-size: 2.8vh;
+    }
+    .resumeContainer {
+        width: 27vh;
+        height: 27vh;
+    }
+    .resume {
+        width: 23vh;
+        height: 23vh;
+    }
+    .decor {
+        width: 23vh;
+        height: 23vh;
+    }
+    .resumeTrigger {
+        width: 10vh;
+        height: 13vh;
     }
 }
 
@@ -138,29 +173,39 @@
         width: 10vh;
         height: 13vh;
     }
+    .rightTextContainer {
+        right: 2.3vw
+    }
+    .leftTextContainer {
+        left: 2.3vw
+    }
 }
 
 @media (max-width: 911px) {
     .bottomPageTextStyle {
         font-size: 2.8vh;
     }
-    .leftTextContainer {
-        top: 9vh;
+    .resumeContainer {
+        width: 25vh;
+        height: 25vh;
     }
-    .rightTextContainer {
-        top: 9vh;
+    .resume {
+        width: 21vh;
+        height: 21vh;
+    }
+    .decor {
+        width: 21vh;
+        height: 21vh;
+    }
+    .resumeTrigger {
+        width: 9vh;
+        height: 12vh;
     }
 }
 
 @media (max-width: 799px) {
     .bottomPageTextStyle {
-        font-size: 2.5vh;
-    }
-}
-
-@media (max-width: 710px) {
-    .bottomPageTextStyle {
-        font-size: 2vh;
+        font-size: 2.8vh;
     }
     .resumeContainer {
         width: 23vh;
@@ -178,45 +223,55 @@
         width: 8vh;
         height: 11vh;
     }
-    .leftTextContainer {
-        top: 11vh;
+}
+
+@media (max-width: 710px) {
+    .bottomPageTextStyle {
+        font-size: 2.6vh;
     }
-    .rightTextContainer {
-        top: 11vh;
+    .resumeContainer {
+        width: 22vh;
+        height: 22vh;
+    }
+    .resume {
+        width: 18vh;
+        height: 18vh;
+    }
+    .decor {
+        width: 18vh;
+        height: 18vh;
+    }
+    .resumeTrigger {
+        width: 7.5vh;
+        height: 10.5vh;
     }
 }
 
 @media (max-width: 615px) {
     .bottomPageTextStyle {
-        font-size: 1.8vh;
+        font-size: 2.4vh;
     }
 }
 
 @media (max-width: 573px) {
     .bottomPageTextStyle {
-        font-size: 1.5vh;
+        font-size: 2.3vh;
     }
     .resumeContainer {
-        width: 20vh;
-        height: 20vh;
+        width: 18vh;
+        height: 18vh;
     }
     .resume {
-        width: 16vh;
-        height: 16vh;
+        width: 14vh;
+        height: 14vh;
     }
     .decor {
-        width: 16vh;
-        height: 16vh;
+        width: 14vh;
+        height: 14vh;
     }
     .resumeTrigger {
-        width: 7vh;
-        height: 9vh;
-    }
-    .leftTextContainer {
-        top: 13vh;
-    }
-    .rightTextContainer {
-        top: 13vh;
+        width: 6vh;
+        height: 8vh;
     }
 }
 
@@ -229,7 +284,7 @@
         width: 100vw;
     }
     .bottomPageTextStyle {
-        font-size: 1.3vh;
+        font-size: 2.1vh;
     }
     .resumeContainer {
         width: 18vh;
@@ -247,13 +302,10 @@
         width: 7vh;
         height: 9vh;
     }
-    .resumeText {
-        margin-top: 3vh;
+    .rightTextContainer {
+        height: 24.9vh;
     }
     .leftTextContainer {
-        top: 6vh;
-    }
-    .rightTextContainer {
-        top: 6vh;
+        height: 24.9vh;
     }
 }

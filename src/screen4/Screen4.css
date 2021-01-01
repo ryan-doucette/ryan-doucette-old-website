@@ -1,6 +1,3 @@
-.container {
-
-}
 .allButtons {
     position: absolute;
     width: 12vh;
@@ -233,6 +230,11 @@
     background-color: white;
     border-radius:50%;
 }
+
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+    content:url(../screen4/Screen4Imgs/stateStreetLogoB.png) url(../screen4/Screen4Imgs/enozoLogoB.png);
+ }
 
 .button1:hover .ssButton {
     background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);

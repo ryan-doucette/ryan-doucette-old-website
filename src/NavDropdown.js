@@ -28,32 +28,32 @@ const NavDropdown = () => {
             <div className="submenu">
                 <div className='spacer'></div>
                 <div className='textContainer' style={{ top: '3.15vh' }}>
-                    <item onClick={() => { document.getElementById('Top').scrollIntoView({ behavior: "smooth" }) }} >
+                    <li onClick={() => { document.getElementById('Top').scrollIntoView({ behavior: "smooth" }) }} >
                         <div className='selectionStyle'>
                             Top
                         </div>
-                    </item>
+                    </li>
                 </div>
                 <div className='textContainer' style={{ top: '3vh' }}>
-                    <item onClick={() => { document.getElementById('About Me').scrollIntoView({ behavior: "smooth" }) }} >
+                    <li onClick={() => { document.getElementById('About Me').scrollIntoView({ behavior: "smooth" }) }} >
                         <div className='selectionStyle'>
                             About Me
                         </div>
-                    </item>
+                    </li>
                 </div>
                 <div className='textContainer' style={{ top: '3vh' }}>
-                    <item onClick={() => { document.getElementById('Projects').scrollIntoView({ behavior: "smooth" }) }} >
+                    <li onClick={() => { document.getElementById('Projects').scrollIntoView({ behavior: "smooth" }) }} >
                         <div className='selectionStyle'>
                             Projects
                         </div>
-                    </item>
+                    </li>
                 </div>
                 <div className='textContainer' style={{ top: '3vh' }}>
-                    <item onClick={() => { document.getElementById('Work').scrollIntoView({ behavior: "smooth" }) }} >
+                    <li onClick={() => { document.getElementById('Work').scrollIntoView({ behavior: "smooth" }) }} >
                         <div className='selectionStyle'>
                             Work
                         </div>
-                    </item>
+                    </li>
                 </div>
             </div>
         </div>
