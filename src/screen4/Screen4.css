@@ -2,8 +2,8 @@
     position: absolute;
     width: 12vh;
     height: 12vh;
+    z-index: 100;
 }
-
 .button1 {
     /* background-color:red; */
     top: 4vh;
@@ -12,7 +12,6 @@
     align-items: center;
     display: flex;
     transition: all .5s ease-in-out;
-
     border-style: solid;
     border-color: white;
     border-width: 0.35vh;
@@ -27,6 +26,21 @@
     align-items: flex-start;
     display: flex;
     transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ssButtonB {
+    position: absolute;
+    left: -1050px;
+    width: 10vh;
+    height: 10vh;
+    margin-bottom: 0.5vh;
+    background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,6 +72,21 @@
     background-size: cover;
 }
 
+.enozoButtonB {
+    position: absolute;
+    left: -1000px;
+    width: 10vh;
+    height: 10vh;
+    background-image: url(../screen4/Screen4Imgs/enozoLogoB.png);
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .innerContainer4 {
     position: relative;
     top: 0.1vh;
@@ -76,6 +105,10 @@
     height: 62vh;
     width: 68vw;
     transition: all .7s ease-in-out;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .enozo {
@@ -85,6 +118,10 @@
     height: 62vh;
     width: 68vw;
     transition: all .7s ease-in-out;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: left;
+    display: flex;
 }
 
 .allBorder {
@@ -267,14 +304,20 @@ body::after{
 }
 
 .button1:hover ~ .ssga {
-    background-color: blue;
+    opacity: 1;
 }
-
+.button1:hover ~ .placeHolderText2 {
+    opacity: 0;
+}
 .button2:hover ~ .enozo {
-    background-color: red;
+    opacity: 1;
+}
+.button2:hover ~ .placeHolderText2 {
+    opacity: 0;
 }
 
 .placeHolderText2 {
+
     position: absolute;
     font-Family: 'HelveticaNeue-Light';
     font-size: 13vh;
@@ -318,6 +361,19 @@ body::after{
 }
 
 @media (max-width: 602px) { 
+    .placeHolderText2 {
+        font-size: 7.5vh;
+        letter-spacing: 0.2vh;
+    }
+    .button1 {
+        left: 15vw;
+    }
+    .button2 {
+        right: 15vw;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 875px) {  
     .placeHolderText2 {
         font-size: 7.5vh;
         letter-spacing: 0.2vh;

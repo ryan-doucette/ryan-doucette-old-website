@@ -40,6 +40,14 @@
     transform-origin: top;
     transition: all .5s ease-in-out;
 }
+.bulb1Lit {
+    background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+    height: 22vh;
+    width: 13vh;
+    position: absolute;
+    left: -1000px
+
+}
 .bulb2 {
     background-image: url(../screen3/Screen3Imgs/bulb2.png);
     height: 22vh;
@@ -50,6 +58,14 @@
     display: block;
     transform-origin: top;
     transition: all .5s ease-in-out;
+}
+.bulb2Lit {
+    background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+    height: 22vh;
+    width: 13vh;
+    position: absolute;
+    left: -1000px
+
 }
 .brokenBulb {
     background-image: url(../screen3/Screen3Imgs/brokenBulb.png);
@@ -104,25 +120,28 @@ body::after{
  }
 
  .scrutinyContainer {
-    background-color: blueviolet;
     /* width: 130vh; */
     width: 75vw;
     height: 63vh;
     position: absolute;
     top: 26vh;
     opacity: 0;
-    transition: all .5s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
  }
 
  .siteContainer {
-    background-color: green;
-    /* width: 130vh; */
     width: 75vw;
     height: 63vh;
     position: absolute;
     top: 26vh;
     opacity: 0;
-    transition: all .5s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
  }
 
 .bulbPos1:hover ~ .scrutinyContainer {
@@ -233,6 +252,123 @@ body::after{
 }
 
 @media (max-width: 602px) { 
+    .bulbPos1 {
+        left: 6vw;
+    }
+    .brokenBulbPos {
+        right: 6vw;
+    }
+    .placeHolderText1 {
+        font-size: 7.5vh;
+        letter-spacing: 0.2vh;
+    }
+    .scrutinyContainer {
+        width: 85vw;
+    }
+    .siteContainer {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .bulbContainer {
+        position: absolute;
+        height: 0vh;
+        width: 0vh;
+    }
+    .bulbPos1 {
+        left: 28vw;
+    }
+    .bulb1 {
+        background-image: none;
+        height: 0vh;
+        width: 0vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        transform-origin: top;
+        transition: all .5s ease-in-out;
+    }
+    .bulb2 {
+        background-image: none;
+        height: 0vh;
+        width: 0vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        transform-origin: top;
+        transition: all .5s ease-in-out;
+    }
+    .bulbContainerM {
+        position: absolute;
+        height: 22vh;
+        width: 13vh;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        transition: all .5s ease-in-out;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 100;
+    }
+    .bulbPos1M {
+        left: 6vw;
+    }
+    .brokenBulbPos {
+        right: 6vw;
+    }
+    .bulb1M {
+        background-image: url(../screen3/Screen3Imgs/bulb1.png);
+        height: 22vh;
+        width: 13vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        transform-origin: top;
+        transition: all .5s ease-in-out;
+    }
+    .bulb2M {
+        background-image: url(../screen3/Screen3Imgs/bulb2.png);
+        height: 22vh;
+        width: 13vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        transform-origin: top;
+        transition: all .5s ease-in-out;
+    }
+    .bulb1M:hover {
+        background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+        -webkit-animation: slowWiggle 3s ease-in-out infinite;
+        animation: slowWiggle 3s ease-in-out infinite;
+    }
+    
+    .bulb2M:hover {
+        background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+        -webkit-animation: slowWiggle 3s ease-in-out infinite;
+        animation: slowWiggle 3s ease-in-out infinite;
+    }
+    .bulbPos1M:hover ~ .scrutinyContainer {
+        opacity: 1;
+    }
+    .bulbPos1M:hover ~ .placeHolderText1 {
+        opacity: 0;
+    }
+    
+    .bulbPos2M:hover ~ .siteContainer {
+        opacity: 1;
+    }
+    .bulbPos2M:hover ~ .placeHolderText1 {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 875px) { 
     .bulbPos1 {
         left: 6vw;
     }

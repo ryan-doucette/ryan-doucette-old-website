@@ -1,0 +1,161 @@
+.scrutinyText {
+    letter-spacing: 0.5vh;
+    margin-left: 3vw;
+    color:white;
+    text-align: left;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+.scrutinyTitle {
+    margin-top: 3vh;
+    width: 69vw;
+    font-size: 7vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.scrutinySubTitle {
+    letter-spacing: 0.3vh;
+    margin-top: 1vh;
+    width: 69vw;
+    font-size: 4vh;
+    font-Family: 'HelveticaNeue-LightItalic';
+    transition: all .5s ease-in-out;
+}
+.scrutinyDesc {
+    letter-spacing: 0.2vh;
+    margin-top: 2vh;
+    width: 69vw;
+    font-size: 3vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.scrutinyInfo {
+    letter-spacing: 0.2vh;
+    margin-top: 4vh;
+    width: 69vw;
+    font-size: 3vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.scrutinyLogoHolder {
+    margin-top: 5vh;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+}
+.scrutinyLogo {
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../screen3/Screen3Imgs/scrutinyLogo.png);
+    transition: all .5s ease-in-out;
+}
+
+@media (max-width: 1393px) {
+    .scrutinyTitle {
+        font-size: 6vh;
+    }
+    .scrutinySubTitle {
+        font-size: 3.5vh;
+    }
+    .scrutinyDesc {
+        font-size: 2.5vh;
+    }
+    .scrutinyInfo {
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 935px) {
+    .scrutinyTitle {
+        font-size: 6vh;
+    }
+    .scrutinySubTitle {
+        font-size: 3vh;
+    }
+    .scrutinyDesc {
+        font-size: 2vh;
+    }
+    .scrutinyInfo {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .scrutinyTitle {
+        margin-top: 1vh;
+    }
+}
+
+@media (max-width: 602px) {
+    .scrutinyLogoHolder {
+        width: 85vw;
+    }
+    .scrutinyText {
+        margin-left: 7vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .scrutinyTitle {
+        font-size: 4.5vh;
+    }
+    .scrutinySubTitle {
+        font-size: 2.5vh;
+    }
+    .scrutinyDesc {
+        font-size: 2vh;
+    }
+    .scrutinyInfo {
+        font-size: 2vh;
+    }
+    .scrutinyLogo {
+        width: 10vh;
+        height: 10vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .scrutinyTitle {
+        margin-top: -1vh;
+        font-size: 4.5vh;
+    }
+    .scrutinySubTitle {
+        font-size: 2.5vh;
+    }
+    .scrutinyDesc {
+        font-size: 1.8vh;
+    }
+    .scrutinyInfo {
+        font-size: 1.8vh;
+    }
+    .scrutinyLogo {
+        width: 9.5vh;
+        height: 9.5vh;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 875px) {  
+    .scrutinyTitle {
+        margin-top: -1vh;
+        font-size: 5vh;
+    }
+    .scrutinySubTitle {
+        font-size: 3vh;
+    }
+    .scrutinyDesc {
+        font-size: 2.5vh;
+    }
+    .scrutinyInfo {
+        font-size: 2.5vh;
+    }
+    .scrutinyLogo {
+        width: 9.5vh;
+        height: 9.5vh;
+    }
+}

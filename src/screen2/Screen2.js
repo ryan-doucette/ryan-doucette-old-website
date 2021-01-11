@@ -8,7 +8,7 @@ class Screen2 extends Component {
     render() {
         return (
             // Full container
-            <div className='container' style={{ height: '100vh', width: '100vw' }}>
+            <div className='container' style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
                 <div className='categoriesContainer'>
                     {/* Top triangle selectors */}
                     <div className='categoryContainer category1Spec'>

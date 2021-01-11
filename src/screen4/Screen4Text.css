@@ -1,0 +1,148 @@
+.screen4Text {
+    letter-spacing: 0.5vh;
+    margin-left: 1vw;
+    color:white;
+    text-align: left;
+    transition: all .5s ease-in-out;
+    width: 63.5vw;
+    box-sizing: border-box;
+}
+
+.screen4Title {
+    margin-top: 1.5vh;
+    font-size: 7vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.screen4SubTitle {
+        letter-spacing: 0.3vh;
+    margin-top: 1vh;
+    font-size: 4vh;
+    font-Family: 'HelveticaNeue-LightItalic';
+    transition: all .5s ease-in-out;
+}
+.screen4Desc {
+    letter-spacing: 0.2vh;
+    margin-top: 4vh;
+    font-size: 3.5vh;
+    line-height: 5vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+
+@media (max-width: 1620px) {
+    .screen4Title {
+        margin-top: 1.5vh;
+        font-size: 5.75vh;
+    }
+    .screen4SubTitle {
+        letter-spacing: 0.3vh;
+        margin-top: 1vh;
+        font-size: 3.5vh;
+    }
+    .screen4Desc {
+        letter-spacing: 0.2vh;
+        margin-top: 4vh;
+        font-size: 3.25vh;
+        line-height: 4vh;
+    }
+}
+
+@media (max-width: 1393px) {
+    .screen4Title {
+        margin-top: 0.5vh;
+        font-size: 4.5vh;
+    }
+    .screen4SubTitle {
+        letter-spacing: 0.3vh;
+        margin-top: 1vh;
+        font-size: 3.25vh;
+    }
+    .screen4Desc {
+        letter-spacing: 0.2vh;
+        margin-top: 3vh;
+        font-size: 2.75vh;
+        line-height: 4vh;
+    }
+}
+
+@media (max-width: 935px) {
+    .screen4Title {
+        margin-top: -0.5vh;
+        font-size: 3.4vh;
+    }
+    .screen4SubTitle {
+        letter-spacing: 0.3vh;
+        margin-top: 1vh;
+        font-size: 2.8vh;
+    }
+    .screen4Desc {
+        letter-spacing: 0.2vh;
+        margin-top: 2vh;
+        font-size: 2.5vh;
+        line-height: 3vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .screen4Text {
+        margin-left: 1.75vw;
+    }
+    .screen4Title {
+        margin-top: -0.5vh;
+    }
+}
+
+@media (max-width: 655px) {
+    .screen4Title {
+        font-size: 3.4vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .screen4Text {
+        margin-left: 2.25vw;
+    }
+    .screen4Title {
+        margin-top: 0vh;
+        font-size: 2.5vh;
+    }
+    .screen4SubTitle {
+        letter-spacing: 0.3vh;
+        margin-top: 1vh;
+        font-size: 2.25vh;
+    }
+    .screen4Desc {
+        letter-spacing: 0.2vh;
+        margin-top: 1.8vh;
+        font-size: 2vh;
+        line-height: 2.6vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .screen4Title {
+        margin-top: -1vh;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 875px) { 
+    .screen4Text {
+        margin-left: 2.25vw;
+    }
+    .screen4Title {
+        margin-top: 0vh;
+        font-size: 3.5vh;
+    }
+    .screen4SubTitle {
+        letter-spacing: 0.3vh;
+        margin-top: 1vh;
+        font-size: 2.5vh;
+    }
+    .screen4Desc {
+        letter-spacing: 0.3vh;
+        margin-top: 1.8vh;
+        font-size: 2.25vh;
+        line-height: 3vh;
+    }
+}

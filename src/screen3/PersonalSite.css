@@ -1,0 +1,121 @@
+.siteText {
+    letter-spacing: 0.5vh;
+    margin-left: 3vw;
+    color:white;
+    text-align: left;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+.siteTitle {
+    margin-top: 4.25vh;
+    width: 69vw;
+    font-size: 6vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.siteSubTitle {
+    letter-spacing: 0.3vh;
+    margin-top: 1vh;
+    width: 69vw;
+    font-size: 4vh;
+    font-Family: 'HelveticaNeue-LightItalic';
+    transition: all .5s ease-in-out;
+}
+.siteDesc {
+    letter-spacing: 0.2vh;
+    margin-top: 2vh;
+    width: 69vw;
+    font-size: 3vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+.siteInfo {
+    letter-spacing: 0.2vh;
+    margin-top: 4vh;
+    width: 69vw;
+    font-size: 3vh;
+    font-Family: 'HelveticaNeue-Light';
+    transition: all .5s ease-in-out;
+}
+
+@media (max-width: 1393px) {
+    .siteTitle {
+        font-size: 5.5vh;
+    }
+    .siteSubTitle {
+        font-size: 3.5vh;
+    }
+    .siteDesc {
+        font-size: 2.5vh;
+    }
+    .siteInfo {
+        font-size: 3vh;
+    }
+}
+
+@media (max-width: 935px) {
+    .siteTitle {
+        font-size: 5vh;
+    }
+    .siteSubTitle {
+        font-size: 3vh;
+    }
+    .siteDesc {
+        font-size: 2vh;
+    }
+    .siteInfo {
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .siteTitle {
+        margin-top: 2.25vh;
+    }
+}
+
+@media (max-width: 655px) {
+    .siteTitle {
+        font-size: 4.5vh;
+    }
+}
+
+@media (max-width: 602px) {
+    .siteText {
+        margin-left: 7vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .siteTitle {
+        font-size: 3.5vh;
+    }
+    .siteSubTitle {
+        font-size: 2.25vh;
+    }
+    .siteDesc {
+        font-size: 2vh;
+    }
+    .siteInfo {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .siteTitle {
+        margin-top: 0.25vh;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 875px) {  
+    .siteTitle {
+        margin-top: -1vh;
+        font-size: 5vh;
+    }
+    .siteSubTitle {
+        font-size: 3vh;
+    }
+    .siteInfo {
+        font-size: 2.5vh;
+    }
+}

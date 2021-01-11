@@ -114,6 +114,35 @@
     }
 }
 
+@media (max-width: 1200px) and (min-height: 875px) { 
+    .IconsContainer {
+        width: 140px;
+        position: absolute;
+        top: 8.5vh;
+        right: 0px;
+        display: flex;
+        transition: all .3s ease-in-out;
+    }
+    .MailContainer {
+        position: absolute;
+        height: 4vh;
+        width: 4vh;
+        right: 165px;
+    }
+    .LIContainer {
+        position: absolute;
+        height: 4vh;
+        width: 4vh;
+        right: 115px;
+    }
+    .GHContainer {
+        position: absolute;
+        height: 4vh;
+        width: 4vh;
+        right: 65px;
+    }
+}
+
 .grow:hover {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);

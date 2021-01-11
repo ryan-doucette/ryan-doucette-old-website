@@ -95,3 +95,32 @@
         left: 30px;
     }
 }
+@media (max-width: 1200px) and (min-height: 875px) { 
+    .textStyle {
+        font-size: 2.5vh;
+    }
+    .textPos1 {
+        top: 8.8vh;
+        left: 60px;
+    }
+    .textPos2 {
+        top: 12.5vh;
+        left: 60px;
+    }
+    .textPos3 {
+        top: 16.2vh;
+        left: 60px;
+    }
+    .textPos4 {
+        top:67vh;
+        left: 60px;
+    }
+    .textPos5 {
+        top:74vh;
+        left: 60px;
+    }
+    .textPos6 {
+        top:81vh;
+        left: 60px;
+    }
+}

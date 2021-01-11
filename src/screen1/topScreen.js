@@ -26,12 +26,12 @@ class TopScreen extends Component {
                         </a>
                     </div>
                     <div className='LIContainer' >
-                        <a href="https://www.linkedin.com/in/ryan-doucette/">
+                        <a href="https://www.linkedin.com/in/ryan-doucette/" target="_blank" rel="noopener noreferrer">
                             <div className='IconStyle grow' style={{ backgroundImage: `url(${linkedIn_logo})`, position: 'relative', right: '45px' }}></div>
                         </a>
                     </div>
                     <div className='GHContainer grow'>
-                        <a href='https://github.com/ryan-doucette'>
+                        <a href='https://github.com/ryan-doucette' target="_blank" rel="noopener noreferrer">
                             <div className='IconStyle grow' style={{ backgroundImage: `url(${github_logo})` }}></div>
                         </a>
                     </div>

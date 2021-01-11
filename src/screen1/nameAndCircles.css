@@ -10,6 +10,7 @@
     max-width: 100%;
     overflow-x: hidden;
     transition: all .3s ease-in-out;
+    overflow: hidden;
 }
 .CircleStyle {
     margin-left: auto;
@@ -23,16 +24,19 @@
     display: flex;
     height: 70vh;
     width: 70vh;
+    overflow: hidden;
 }
 
 /* default: circle size */
 .OuterCircleDim {
     height: 64.5vh;
     width: 64.5vh;
+    overflow: hidden;
 }
 .InnerCircleDim {
     height: 50vh;
     width: 50vh;
+    overflow: hidden;
 }
 
 /* breakpoint 1: circle resizing */
@@ -174,12 +178,53 @@
 }
 
 /* breakpoint 10: circle resizing  */
-@media (max-width: 602px) and (min-height: 875px) { 
+@media (max-width: 1200px) and (min-height: 875px) { 
+  .CircleContainer {
+    width: 55vw;
+    left: 23vw;
+    /* top: -8vh; */
+  } 
+  .OuterCircleDim {
+      height: 55vw;
+      width: 55vw;
+  }
+  .InnerCircleDim {
+      height: 45vw;
+      width: 45vw;
+  }
+}
+
+
+/* breakpoint 11: circle resizing  */
+@media (max-width: 601px) and (max-height: 874px) { 
   .CircleContainer {
     width: 65vw; 
-    top: 16vh; 
+    left: 17vw;
+  } 
+  .OuterCircleDim {
+    height: 65vw;
+    width: 65vw;
+  }
+  .InnerCircleDim {
+      height: 55vw;
+      width: 55vw;
+  }
+}
+
+/* breakpoint 12: circle resizing  */
+@media (max-width: 601px) and (min-height: 876px) { 
+  .CircleContainer {
+    width: 65vw; 
     left: 15vw;
   } 
+  .OuterCircleDim {
+    height: 65vw;
+    width: 65vw;
+  }
+  .InnerCircleDim {
+      height: 55vw;
+      width: 55vw;
+  }
 }
 
 
