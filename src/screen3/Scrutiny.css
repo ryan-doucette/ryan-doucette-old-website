@@ -10,7 +10,7 @@
     margin-top: 3vh;
     width: 69vw;
     font-size: 7vh;
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     transition: all .5s ease-in-out;
 }
 .scrutinySubTitle {
@@ -18,7 +18,7 @@
     margin-top: 1vh;
     width: 69vw;
     font-size: 4vh;
-    font-Family: 'HelveticaNeue-LightItalic';
+    font-Family: 'Helvetica-Light';
     transition: all .5s ease-in-out;
 }
 .scrutinyDesc {
@@ -26,7 +26,7 @@
     margin-top: 2vh;
     width: 69vw;
     font-size: 3vh;
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     transition: all .5s ease-in-out;
 }
 .scrutinyInfo {
@@ -34,7 +34,7 @@
     margin-top: 4vh;
     width: 69vw;
     font-size: 3vh;
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     transition: all .5s ease-in-out;
 }
 .scrutinyLogoHolder {

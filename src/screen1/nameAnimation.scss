@@ -41,14 +41,14 @@ ins.flip-animate {
   &:hover span:before,
   &:focus span:before {
     color: rgb(186, 137, 255);
-    font-size: 3.7vh;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 4.2vh;
+    font-Family: 'Helvetica-Light';
   }
 
   @media (max-width: 950px) { 
   &:hover span:before,
   &:focus span:before {
-    font-size: 2.75vh;
+    font-size: 3.1vh;
     }
   }
 
@@ -56,7 +56,7 @@ ins.flip-animate {
     &:hover span:before,
     &:focus span:before {
       font-size: 4.3vw;
-      font-Family: 'HelveticaNeue-Light';
+      font-Family: 'Helvetica-Light';
       }
     }
 
@@ -70,13 +70,13 @@ ins.flip-animate {
       @media (max-width: 1150px) and (min-height: 875px) { 
         &:hover span:before,
         &:focus span:before {
-          font-size: 3vh;
+          font-size: 3.4vh;
         }
       }
       @media (max-width: 730px) and (min-height: 875px) { 
         &:hover span:before,
         &:focus span:before {
-          font-size: 3.7vw;
+          font-size: 4.2vw;
         }
       }
       @media (max-width: 610px) and (min-height: 875px) { 
@@ -94,7 +94,7 @@ ins.flip-animate {
       @media (max-width: 1200px) and (min-height: 875px) { 
         &:hover span:before,
         &:focus span:before {
-          font-size: 3.2vw;
+          font-size: 3.6vw;
         }
       }
 }

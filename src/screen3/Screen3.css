@@ -9,7 +9,8 @@
     justify-content: center;
 }
 
-.bulbContainer {
+.bulbContainer1 {
+    /* background-color: tomato; */
     position: absolute;
     height: 22vh;
     width: 13vh;
@@ -22,6 +23,35 @@
     background-size: cover;
     z-index: 100;
 }
+
+.bulbContainer2 {
+    position: absolute;
+    height: 22vh;
+    width: 13vh;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+
+.bulbContainer3 {
+    position: absolute;
+    height: 22vh;
+    width: 13vh;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    transition: all .5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+
 .bulbPos1 {
     left: 28vw;
 }
@@ -31,6 +61,7 @@
 }
 .bulb1 {
     background-image: url(../screen3/Screen3Imgs/bulb1.png);
+    display: none;
     height: 22vh;
     width: 13vh;
     background-position: center;
@@ -39,6 +70,8 @@
     display: block;
     transform-origin: top;
     transition: all .5s ease-in-out;
+    /* background-color: turquoise; */
+    /* z-index: 2; */
 }
 .bulb1Lit {
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
@@ -80,7 +113,7 @@
 }
 .placeHolderText1 {
     position: absolute;
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     font-size: 13vh;
     letter-spacing: 0.3vh;
     color: rgba(0, 0, 0, 0.413);
@@ -96,10 +129,32 @@
 }
 
 .bulb1:hover {
+    
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
     -webkit-animation: slowWiggle 3s ease-in-out infinite;
     animation: slowWiggle 3s ease-in-out infinite;
 }
+
+/* .bulb1:hover ~ .linkTarget {
+    display: block;
+}
+
+.linkTarget:hover ~ .bulb1 {
+    background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
+} */
+
+.linkTarget {
+    position: absolute;
+    top: 8vh;
+    display: none;
+    /* background-color: slateblue; */
+    height: 10vh;
+    width: 10vh;
+    /* z-index: 1; */
+}
+
 
 .bulb2:hover {
     background-image: url(../screen3/Screen3Imgs/bulbLit2.png);

@@ -37,7 +37,7 @@
     color: white;
     font-size: 2.65vh;
     letter-spacing: 0.25vh;
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
 }
 .dot {
     position: absolute;
@@ -273,7 +273,7 @@
     text-align: left;
 }
 .baseHeadStyle {
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     font-size: 5vh;
     letter-spacing: 0.3vh;
     color: white;
@@ -281,7 +281,7 @@
     display: flex;
 }
 .baseListStyle {
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     font-size: 3.25vh;
     color: white;
     margin-left: 13vh;
@@ -290,7 +290,7 @@
     line-height: 5vh;
 }
 .skillHeadStyle {
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     font-size: 4.5vh;
     letter-spacing: 0.3vh;
     color: white;
@@ -298,7 +298,7 @@
     margin-top: 1vh;
 }
 .skillListStyle {
-    font-Family: 'HelveticaNeue-Light';
+    font-Family: 'Helvetica-Light';
     font-size: 2.75vh;
     color: white;
     margin-left: 3vh;
@@ -360,7 +360,7 @@
         top: 29vh;
     }
     .skillHeadStyle {
-        font-Family: 'HelveticaNeue-Light';
+        font-Family: 'Helvetica-Light';
         font-size: 4.5vh;
         letter-spacing: 0.3vh;
         color: white;
