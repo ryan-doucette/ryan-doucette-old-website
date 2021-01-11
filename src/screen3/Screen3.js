@@ -10,13 +10,13 @@ class Screen3 extends Component {
             // Full container
             <div className='container' style={{ height: '100vh', width: '100vw' }}>
                 <div className='innerContainer3'>
-                    <div className='bulbContainerM bulbPos1M' >
+                    {/* <div className='bulbContainerM bulbPos1M' >
                         <div className='bulb1M'></div>
                         <div className='bulb1MLit'></div>
                     </div>
                     <div className='bulbContainerM bulbPos2M'>
                         <div className='bulb2M'></div>
-                    </div>
+                    </div> */}
                     <div className='bulbContainer bulbPos1' >
                         <a className='bulb1' href='https://apps.apple.com/us/app/scrutinyfb/id1491261180' target="_blank" rel="noopener noreferrer" style={{ color: 'transparent' }}>.</a>
                         <div className='bulb1Lit'></div>
@@ -31,7 +31,7 @@ class Screen3 extends Component {
                     <div className='scrutinyContainer'>
                         <div className='scrutinyTitle scrutinyText'>scrutinyFB</div>
                         <div className='scrutinySubTitle scrutinyText'>Co-Developed Full-Stack iOS Mobile Application</div>
-                        <div className='scrutinyDesc scrutinyText'>(Allows user to make complex player and team compatisons to aid in fantasy football roster decisions)</div>
+                        <div className='scrutinyDesc scrutinyText'>(Allows user to make complex player and team comparisons to aid in fantasy football roster decisions)</div>
                         <div className='scrutinyInfo scrutinyText'>This project was Shanmuhka Srinivasan and I’s first crack at creating a mobile application. Through this experience we learned a lot about React Native, webscraping data, API calls, and the process of launching an app on the iOS App Store.</div>
                         <div className='scrutinyLogoHolder'>
                             <a className='scrutinyLogo' href='https://apps.apple.com/us/app/scrutinyfb/id1491261180'> </a>
