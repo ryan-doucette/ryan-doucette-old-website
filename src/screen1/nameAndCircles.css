@@ -227,6 +227,22 @@
   }
 }
 
+/* breakpoint 13: circle resizing  */
+@media (max-width: 615px) and (max-height: 760px) and (min-width: 499px){ 
+  .CircleContainer {
+    width: 40vh;
+    left: 22vw;
+  } 
+  .OuterCircleDim {
+    height: 40vh;
+    width: 40vh;
+  }
+  .InnerCircleDim {
+      height: 33vh;
+      width: 33vh;
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .speedUpOuter:hover {
