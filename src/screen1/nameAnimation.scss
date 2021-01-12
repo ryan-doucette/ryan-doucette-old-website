@@ -42,7 +42,8 @@ ins.flip-animate {
   &:focus span:before {
     color: rgb(186, 137, 255);
     font-size: 4.2vh;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
   }
 
   @media (max-width: 950px) { 
@@ -56,7 +57,8 @@ ins.flip-animate {
     &:hover span:before,
     &:focus span:before {
       font-size: 4.3vw;
-      font-Family: 'Helvetica-Light';
+      font-Family: 'Helvetica';
+      font-weight: 100;
       }
     }
 

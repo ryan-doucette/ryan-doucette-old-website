@@ -10,7 +10,8 @@
     margin-top: 4.25vh;
     width: 69vw;
     font-size: 6vh;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     transition: all .5s ease-in-out;
 }
 .siteSubTitle {
@@ -18,7 +19,8 @@
     margin-top: 1vh;
     width: 69vw;
     font-size: 4vh;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     transition: all .5s ease-in-out;
 }
 .siteDesc {
@@ -26,7 +28,8 @@
     margin-top: 2vh;
     width: 69vw;
     font-size: 3vh;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     transition: all .5s ease-in-out;
 }
 .siteInfo {
@@ -34,7 +37,8 @@
     margin-top: 4vh;
     width: 69vw;
     font-size: 3vh;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     transition: all .5s ease-in-out;
 }
 
@@ -44,9 +48,6 @@
     }
     .siteSubTitle {
         font-size: 3.5vh;
-    }
-    .siteDesc {
-        font-size: 2.5vh;
     }
     .siteInfo {
         font-size: 3vh;
@@ -59,9 +60,6 @@
     }
     .siteSubTitle {
         font-size: 3vh;
-    }
-    .siteDesc {
-        font-size: 2vh;
     }
     .siteInfo {
         font-size: 2.5vh;
@@ -92,9 +90,6 @@
     }
     .siteSubTitle {
         font-size: 2.25vh;
-    }
-    .siteDesc {
-        font-size: 2vh;
     }
     .siteInfo {
         font-size: 2vh;

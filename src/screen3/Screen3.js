@@ -30,9 +30,9 @@ class Screen3 extends Component {
                         <div className='scrutinySubTitle scrutinyText'>Co-Developed Full-Stack iOS Mobile Application</div>
                         <div className='scrutinyDesc scrutinyText'>(Allows user to make complex player and team comparisons to aid in fantasy football roster decisions)</div>
                         <div className='scrutinyInfo scrutinyText'>This project was Shanmuhka Srinivasan and I’s first crack at creating a mobile application. Through this experience we learned a lot about React Native, webscraping data, API calls, and the process of launching an app on the iOS App Store.</div>
-                        <div className='scrutinyLogoHolder'>
-                            {/* <a className='scrutinyLogo' href='https://apps.apple.com/us/app/scrutinyfb/id1491261180'> </a> */}
-                        </div>
+                        {/* <div className='scrutinyLogoHolder'> */}
+                        {/* <a className='scrutinyLogo' href='https://apps.apple.com/us/app/scrutinyfb/id1491261180'> </a> */}
+                        {/* </div> */}
                     </div>
                     <div className='siteContainer'>
                         <div className='siteTitle siteText'>Personal Website</div>

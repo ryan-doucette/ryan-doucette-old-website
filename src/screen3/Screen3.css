@@ -113,7 +113,8 @@
 }
 .placeHolderText1 {
     position: absolute;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     font-size: 13vh;
     letter-spacing: 0.3vh;
     color: rgba(0, 0, 0, 0.413);
@@ -436,8 +437,10 @@ body::after{
     }
     .scrutinyContainer {
         width: 85vw;
+        left: 14vw;
     }
     .siteContainer {
         width: 85vw;
+        left: 14vw;
     }
 }

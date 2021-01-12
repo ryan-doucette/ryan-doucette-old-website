@@ -319,7 +319,8 @@ body::after{
 .placeHolderText2 {
 
     position: absolute;
-    font-Family: 'Helvetica-Light';
+    font-Family: 'Helvetica';
+    font-weight: 100;
     font-size: 13vh;
     letter-spacing: 0.3vh;
     color: rgba(0, 0, 0, 0.413);
