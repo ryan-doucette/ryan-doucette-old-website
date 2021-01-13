@@ -10,7 +10,6 @@
 }
 
 .bulbContainer1 {
-    /* background-color: tomato; */
     position: absolute;
     height: 22vh;
     width: 13vh;
@@ -61,7 +60,6 @@
 }
 .bulb1 {
     background-image: url(../screen3/Screen3Imgs/bulb1.png);
-    display: none;
     height: 22vh;
     width: 13vh;
     background-position: center;
@@ -71,8 +69,24 @@
     transform-origin: top;
     transition: all .5s ease-in-out;
     /* background-color: turquoise; */
-    /* z-index: 2; */
+    z-index: 2;
 }
+
+.bulb1M {
+    /* background-color: brown; */
+    background-image: url(../screen3/Screen3Imgs/bulb1.png);
+    height: 22vh;
+    width: 13vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    transform-origin: top;
+    transition: all .5s ease-in-out;
+    /* background-color: turquoise; */
+    z-index: 2;
+}
+
 .bulb1Lit {
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
     height: 22vh;
@@ -130,21 +144,16 @@
 }
 
 .bulb1:hover {
-    
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
     -webkit-animation: slowWiggle 3s ease-in-out infinite;
     animation: slowWiggle 3s ease-in-out infinite;
 }
 
-/* .bulb1:hover ~ .linkTarget {
-    display: block;
-}
-
-.linkTarget:hover ~ .bulb1 {
-    background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+.bulb1M:hover {
+    /* background-color: purple; */
     -webkit-animation: slowWiggle 3s ease-in-out infinite;
     animation: slowWiggle 3s ease-in-out infinite;
-} */
+}
 
 .linkTarget {
     position: absolute;
@@ -199,6 +208,21 @@ body::after{
     flex-direction: column;
     display: flex;
  }
+
+ .scrutinyLogoHolder {
+    opacity: 0;
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 5vh;
+    left: 40vw;
+    top: 76vh;
+    width: 24vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    /* z-index: 2; */
+}
 
 .bulbPos1:hover ~ .scrutinyContainer {
     opacity: 1;
@@ -376,7 +400,7 @@ body::after{
     .brokenBulbPos {
         right: 6vw;
     }
-    .bulb1 {
+    /* .bulb1 {
         background-image: url(../screen3/Screen3Imgs/bulb1.png);
         height: 22vh;
         width: 13vh;
@@ -386,6 +410,9 @@ body::after{
         display: block;
         transform-origin: top;
         transition: all .5s ease-in-out;
+    } */
+    .bulb1 {
+        display: none;
     }
     .bulb2 {
         background-image: url(../screen3/Screen3Imgs/bulb2.png);
@@ -398,11 +425,18 @@ body::after{
         transform-origin: top;
         transition: all .5s ease-in-out;
     }
-    .bulb1:hover {
+    /* .bulb1:hover {
         background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
         -webkit-animation: slowWiggle 3s ease-in-out infinite;
         animation: slowWiggle 3s ease-in-out infinite;
+    } */
+    .bulb1M:hover {
+        background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
+        -webkit-animation: slowWiggle 3s ease-in-out infinite;
+        animation: slowWiggle 3s ease-in-out infinite;
     }
+
+
     
     .bulb2:hover {
         background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
@@ -421,6 +455,14 @@ body::after{
     }
     .bulbPos2:hover ~ .placeHolderText1 {
         opacity: 0;
+    }
+
+    .bulbPos1:hover ~ .scrutinyLogoHolder {
+        opacity: 1;
+    }
+
+    .bulb1M {
+        display: block;
     }
 }
 
@@ -442,5 +484,22 @@ body::after{
     .siteContainer {
         width: 85vw;
         left: 14vw;
+    }
+
+    .bulb1M:hover {
+        background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
+        -webkit-animation: slowWiggle 3s ease-in-out infinite;
+        animation: slowWiggle 3s ease-in-out infinite;
+    }
+
+    .bulbPos1:hover ~ .scrutinyLogoHolder {
+        opacity: 1;
+    }
+
+    .bulb1M {
+        display: block;
+    }
+    .bulb1 {
+        display: none;
     }
 }

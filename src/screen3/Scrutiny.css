@@ -41,15 +41,29 @@
     font-weight: 100;
     transition: all .5s ease-in-out;
 }
-.scrutinyLogoHolder {
+/* .scrutinyLogoHolder {
+    background-color: red;
     margin-top: 5vh;
     width: 75vw;
     display: flex;
     justify-content: center;
     transition: all .5s ease-in-out;
-}
-.scrutinyLogo {
+} */
+/* .scrutinyLogoHolder {
+    position: absolute;
+    background-color: red;
+    margin-top: 5vh;
+    left: 39vw;
+    top: 80vh;
+    width: 22vw;
     display: flex;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+} */
+.scrutinyLogo {
+    margin-top: 2vh;
+    display: none;
+    /* opacity: 0; */
     transition: all .5s ease-in-out;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,6 +72,7 @@
     height: 12vh;
     background-image: url(../screen3/Screen3Imgs/scrutinyLogo.png);
     transition: all .5s ease-in-out;
+    /* z-index: 1; */
 }
 
 @media (max-width: 1393px) {
@@ -98,7 +113,8 @@
 
 @media (max-width: 602px) {
     .scrutinyLogoHolder {
-        width: 85vw;
+        left: 39vw;
+        width: 22vw;
     }
     .scrutinyText {
         margin-left: 7vw;
@@ -144,6 +160,13 @@
     }
 }
 
+@media (max-width: 425px) {
+    .scrutinyLogo {
+        display: block;
+    }
+}
+
+
 @media (max-width: 1200px) and (min-height: 875px) {  
     .scrutinyTitle {
         margin-top: -1vh;
@@ -161,5 +184,9 @@
     .scrutinyLogo {
         width: 9.5vh;
         height: 9.5vh;
+        display: flex;
     }
+    /* .scrutinyLogo {
+        display: block;
+    } */
 }
