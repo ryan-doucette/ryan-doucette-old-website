@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App" style={{ overflowX: 'hidden', width: '100vw' }}>
         {/* First screen containing greeting and index */}
-        <div className='screen1' id='Top' style={{ height: '100vh', overflowY: 'hidden' }}>
+        <div className='screen1' id='Top' style={{ height: '100vh', width: '100vw', overflowY: 'hidden', overflowX: 'hidden' }}>
           {/* class containing the animated circle images and my name */}
           <NameAndCircles />
           {/* class containing the name text and animation */}
@@ -25,14 +25,14 @@ class App extends Component {
           <TopScreen />
         </div>
         {/* Second screen containing about me information */}
-        <div className='screen2' id='About Me' style={{ height: '100vh', overflowY: 'hidden' }}>
+        <div className='screen2' id='About Me' style={{ height: '100vh', width: '100vw', overflowY: 'hidden', overflowX: 'hidden' }}>
           {/* All content for screen two within this class */}
           <Screen2 />
         </div>
-        <div className='screen3 border' id='Projects' style={{ height: '100vh' }}>
+        <div className='screen3 border' id='Projects' style={{ height: '100vh', width: '100vw', overflowY: 'hidden', overflowX: 'hidden' }}>
           <Screen3 />
         </div>
-        <div className='screen4 border' id='Work' style={{ height: '100vh' }}>
+        <div className='screen4 border' id='Work' style={{ height: '100vh', width: '100vw', overflowY: 'hidden', overflowX: 'hidden' }}>
           <Screen4 />
         </div>
         <div className='resumeScreen border'>
