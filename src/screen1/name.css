@@ -54,4 +54,12 @@
         font-size: 3.6vw;
     }
 }
+@media (max-height: 550px) { 
+    .nameSize {
+        font-size: 22.5px;
+    }
+    .nameStyle {
+        letter-spacing: 3px;
+    }
+}
 

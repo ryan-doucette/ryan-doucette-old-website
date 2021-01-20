@@ -57,7 +57,7 @@
     position: relative;
     left: 3.4vh;
     text-decoration: none;
-    font-size: 2.9vh;
+    font-size: 2.6vh;
     letter-spacing: 0.15vh;
     font-Family: 'Helvetica';
     font-weight: 100;
@@ -111,5 +111,72 @@
         left: 2vh;
         font-size: 2.45vh;
         padding: 1vh 0;
+    }
+}
+
+@media (max-height: 550px) {
+    .dropdownContainer {
+        height: 34.5px; 
+        width: 110px;
+        right: 130px;
+        top: -16.7px;
+        border-radius: 20px;
+    }
+    
+    .submenu {
+        max-height: 0px;
+        font-size: 10px;
+        width: 110px;
+        height: 125px;
+        top: 0px;
+        border-radius: 20px;
+    }
+    
+    .submenu li {
+        left: 3px;
+        width: 110px;
+        height: 26.75px;
+    }
+    
+    .selectionStyle {
+        width: 90px;
+        height: 20px;
+        padding: 6px 0px;
+        left: 18px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    
+    .dropdownContainer:hover .submenu {
+        max-height: 180px;
+    }
+    
+    .dropdownIcon {
+        background-image: url(../src/DropdownImgs/downArrow.png);
+        height: 34px;
+      }
+    
+    .dropdownContainer:hover .dropdownIcon { 
+        border-radius: 20px;
+    }
+}
+
+@media (max-height: 480px) {
+    .dropdownContainer {
+        top: -16.7px;
+    }
+    
+    .submenu {
+        top: 5px;
+    }
+}
+
+@media (max-height: 400px) {
+    .dropdownContainer {
+        top: -16.7px;
+    }
+    
+    .submenu {
+        top: 10px;
     }
 }

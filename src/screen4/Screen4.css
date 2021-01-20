@@ -5,7 +5,6 @@
     z-index: 100;
 }
 .button1 {
-    /* background-color:red; */
     top: 4vh;
     left: 33vw;
     justify-content: center;
@@ -384,5 +383,136 @@ body::after{
     }
     .button2 {
         right: 15vw;
+    }
+}
+
+@media (max-height: 550px) {
+    .allButtons {
+        width: 65px;
+        height: 65px;
+    }
+    .button1 {
+        top: 20px;
+        left: 33vw;
+        border-width: 2px;
+    }
+    
+    .ssButton {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 2px;
+        background-image: url(../screen4/Screen4Imgs/stateStreetLogoW.png);
+    }
+    
+    .ssButtonB {
+        left: -1050px;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 2px;
+        background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
+    }
+    
+    .button2 {
+        top: 20px;
+        right: 33vw;
+        border-width: 2px;
+    }
+    
+    .enozoButton {
+        width: 55px;
+        height: 55px;
+        background-image: url(../screen4/Screen4Imgs/enozoLogoW.png);
+    }
+    
+    .enozoButtonB {
+        position: absolute;
+        left: -1000px;
+        width: 55px;
+        height: 55px;
+        background-image: url(../screen4/Screen4Imgs/enozoLogoB.png);
+    }
+    
+    .innerContainer4 {
+        top: 1px;
+        height: 540px;
+        width: 100vw;
+    }
+    
+    .ssga {
+        width: 68vw;
+        top: 130px;
+        height: 300px;
+    }
+    
+    .enozo {
+        top: 130px;
+        height: 300px;
+        width: 68vw;
+    }
+    
+    .allBorder {
+        border-width: 4px;
+    }
+    
+    .topBorder {
+        top: 80px;
+        left: 14.2vw;
+        height: 15px;
+        width: 0vw;
+    }
+    
+    .overflowLeftBlock {
+        top: 0.5px;
+        left: 0vw;
+        height: 450px;
+        width: 13.75vw;
+        border-width: 4px;
+    }
+    
+    .bottomBorder {
+        bottom: 30px;
+        left: 85.8vw;
+        height: 20px;
+        width: 0vw;
+    }
+    
+    .overflowRightBlock {
+        top: 0.5px;
+        right: 0vw;
+        height: 450px;
+        width: 13.75vw;
+        border-width: 4px;
+    }
+    
+    .leftBorder {
+        top: 485px;
+        left: 0vw;
+        height: 0px;
+        width: 14vw;
+    }
+
+    
+    .rightBorder {
+        top: 98px;
+        right: 0vw;
+        height: 0px;
+        width: 14vw;
+    }
+
+    .placeHolderText2 {
+
+        font-size: 73px;
+        letter-spacing: 3px;
+        height: 65px;
+        width: 40vw;
+        left: 30vw;
+        top: 275px;
+    }
+
+    .allButtons:hover ~ .leftBorder {
+        height: 390px;
+    }
+    .allButtons:hover ~ .rightBorder {
+        height: 390px;
     }
 }

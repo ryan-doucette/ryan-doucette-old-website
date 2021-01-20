@@ -2,6 +2,12 @@
    Complications arose around having so much functionality rely on :hover */
 
 /* +++++++++++++++++ Containers at the top +++++++++++++++++++++ */
+.containerScreen2 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 .categoriesContainer {
     position: relative;
     top: 0vh;
@@ -518,7 +524,7 @@
         width: 45vh;
     }
     .skillListStyle {
-        font-size: 1.505vh;
+        font-size: 1.4vh;
         margin-top: 1.5vh;
         line-height: 4.5vh;
         margin-left: 1vh;
@@ -700,3 +706,375 @@
         transform: scale(1.65);
 	}
 }
+
+@media (max-height: 550px) { 
+    .containerScreen2 {
+        height: 300vh;
+    }
+
+    .categoriesContainer {
+        top: 0px;
+        height: 148px;
+        width: 100vw;
+    }
+    .categoryContainer{
+        width: 92px;
+        height: 75px; 
+    }
+    .category1Spec{
+        left: 22vw;
+    }
+    .category2Spec {
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+    .category3Spec {
+        right: 22vw;
+    }
+    .categoryTextStyle {
+        top: -58px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .dot {
+        bottom: 22px;
+        height: 8px;
+        width: 8px;
+        border-width: 0.5px;
+    }
+    .triangleInner {
+        bottom: 0.5px;
+        width: 0px; 
+        height: 0px; 
+        border-left: 5px solid transparent;
+        border-right: 20px solid transparent;
+        border-width: 43.5px;
+        border-top: 65px solid #212121;
+    }
+    .triangleOuter {
+        border-left: 10px solid transparent;
+        border-right: 30px solid transparent;
+        border-width: 47px;
+        border-top: 69px solid white;
+    }
+    /* +++++++++++++++++ Initial screen size hover responses +++++++++++++++++++++ */
+
+    .categoryContainer:hover .triangleOuter {
+        border-top: 69px solid #212121;
+    }
+    .categoryContainer:hover .triangleInner {
+        border-top: 65px solid white;
+    }
+    .categoryContainer:hover ~ .fullLightningContainer {
+        top: 500px;
+    }
+    .categoryContainer:hover ~ .lightningVoid {
+        width: 195px;
+    }
+    .categoryContainer:hover ~ .contentVoid {
+        height: 20px
+    }
+    .category1Spec:hover ~ .baseContainer {
+        top: 160px
+    }
+    .category2Spec:hover ~ .skillContainer {
+        top: 195px;
+    }
+    .category3Spec:hover ~ .loveContainer {
+        top: 185px;
+    }
+    
+    /* +++++++++++++++++ Lightning bolt related styling +++++++++++++++++++++ */
+    
+      .fullLightningContainer {
+        top: 145px;
+        height: 330px;
+    }
+    .lightningBoltAndGlowContainer {
+        height: 320px;
+        width: 100px;
+    }
+    .lightningBoltContainer {
+        height: 325px;
+        width: 80px;
+    }
+    .illuminateContainer {
+        height: 85px;
+        width: 85px;
+    }
+    .lightningVoid {
+        top: 483px; 
+        width: 0px;
+        height: 13px;
+    }
+    .portalsEdgeBottom {
+        top: 496px; 
+        width: 100vw;
+        height: 400px;
+    }
+    
+    /* +++++++++++++++++ Incoming content styling +++++++++++++++++++++ */
+    
+    .contentVoid {
+        top: 135px; 
+        width: 700px;
+        height: 0px;
+    }
+    .portalsEdgeTop {
+        top: 0px; 
+        width: 100vw;
+        height: 135px;
+    }
+    .baseContainer {
+        top: -200px;
+        height: 300px;
+        width: 600px;
+    }
+    .skillContainer {
+        top: -200px;
+        height: 240px;
+        width: 600px;
+    }
+    .loveContainer {
+        top: -200px;
+        height: 240px;
+        width: 600px;
+    }
+    .border {
+        background-size: 25px 0.75px;
+    }
+    .designStyle {
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 1.5px;
+        border-right-width: 1.5px;
+    }
+    .baseHeadStyle {
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-left: 70px;
+    }
+    .baseListStyle {
+        font-size: 18px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 8px;
+        line-height: 30px;
+    }
+    .skillHeadStyle {
+        font-size: 25px;
+        letter-spacing: 2.5px;
+        margin-left: 17px;
+        margin-top: 4px;
+    }
+    .skillListStyle {
+        font-size: 15px;
+        margin-left: 17px;
+        margin-top: 8px;
+        line-height: 28px;
+    }
+    .iconStyle {
+        background-image: url(../screen2/Screen2Imgs/InterestIcons.png);
+        height: 257px;
+        width: 455px;
+    }
+}
+
+@media (max-height: 550px) and (max-width: 907px) {
+    .category1Spec{
+        left: 22vw;
+    }
+    .category2Spec {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .category3Spec {
+        right: 22vw;
+    }
+    
+    /* +++++++++++++++++ Lightning bolt related styling +++++++++++++++++++++ */
+
+    .portalsEdgeBottom {
+        top: 496px; 
+        width: 100vw;
+        height: 400px;
+    }
+    
+    /* +++++++++++++++++ Incoming content styling +++++++++++++++++++++ */
+    
+    .portalsEdgeTop {
+        top: 0px; 
+        width: 100vw;
+        height: 135px;
+    }
+
+/* ++++++++ */
+    .categoriesContainer {
+        top: 0px;
+        height: 148px;
+        width: 100vw;
+        background-color: red;
+    }
+    .categoryContainer{
+        width: 92px;
+        height: 75px; 
+    }
+    .category1Spec{
+        left: 22vw;
+    }
+    .category2Spec {
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+    .category3Spec {
+        right: 22vw;
+    }
+    .categoryTextStyle {
+        top: -58px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .dot {
+        bottom: 22px;
+        height: 8px;
+        width: 8px;
+        border-width: 0.5px;
+    }
+    .triangleInner {
+        bottom: 0.5px;
+        width: 0px; 
+        height: 0px; 
+        border-left: 5px solid transparent;
+        border-right: 20px solid transparent;
+        border-width: 43.5px;
+        border-top: 65px solid #212121;
+    }
+    .triangleOuter {
+        border-left: 10px solid transparent;
+        border-right: 30px solid transparent;
+        border-width: 47px;
+        border-top: 69px solid white;
+    }
+    /* +++++++++++++++++ Initial screen size hover responses +++++++++++++++++++++ */
+
+    .categoryContainer:hover .triangleOuter {
+        border-top: 69px solid #212121;
+    }
+    .categoryContainer:hover .triangleInner {
+        border-top: 65px solid white;
+    }
+    .categoryContainer:hover ~ .fullLightningContainer {
+        top: 500px;
+    }
+    .categoryContainer:hover ~ .lightningVoid {
+        width: 195px;
+    }
+    .categoryContainer:hover ~ .contentVoid {
+        height: 20px
+    }
+    .category1Spec:hover ~ .baseContainer {
+        top: 160px
+    }
+    .category2Spec:hover ~ .skillContainer {
+        top: 195px;
+    }
+    .category3Spec:hover ~ .loveContainer {
+        top: 185px;
+    }
+    
+    /* +++++++++++++++++ Lightning bolt related styling +++++++++++++++++++++ */
+    
+      .fullLightningContainer {
+        top: 145px;
+        height: 330px;
+    }
+    .lightningBoltAndGlowContainer {
+        height: 320px;
+        width: 100px;
+    }
+    .lightningBoltContainer {
+        height: 325px;
+        width: 80px;
+    }
+    .illuminateContainer {
+        height: 85px;
+        width: 85px;
+    }
+    .lightningVoid {
+        top: 483px; 
+        width: 0px;
+        height: 13px;
+    }
+    .portalsEdgeBottom {
+        top: 496px; 
+        width: 100vw;
+        height: 400px;
+    }
+    
+    /* +++++++++++++++++ Incoming content styling +++++++++++++++++++++ */
+    
+    .contentVoid {
+        top: 135px; 
+        width: 700px;
+        height: 0px;
+    }
+    .portalsEdgeTop {
+        top: 0px; 
+        width: 100vw;
+        height: 135px;
+    }
+    .baseContainer {
+        top: -200px;
+        height: 300px;
+        width: 600px;
+    }
+    .skillContainer {
+        top: -200px;
+        height: 240px;
+        width: 600px;
+    }
+    .loveContainer {
+        top: -200px;
+        height: 240px;
+        width: 600px;
+    }
+    .border {
+        background-size: 25px 0.75px;
+    }
+    .designStyle {
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 1.5px;
+        border-right-width: 1.5px;
+    }
+    .baseHeadStyle {
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-left: 70px;
+    }
+    .baseListStyle {
+        font-size: 18px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 8px;
+        line-height: 30px;
+    }
+    .skillHeadStyle {
+        font-size: 25px;
+        letter-spacing: 2.5px;
+        margin-left: 17px;
+        margin-top: 4px;
+    }
+    .skillListStyle {
+        font-size: 15px;
+        margin-left: 17px;
+        margin-top: 8px;
+        line-height: 28px;
+    }
+    .iconStyle {
+        background-image: url(../screen2/Screen2Imgs/InterestIcons.png);
+        height: 257px;
+        width: 455px;
+    }
+
+  }

@@ -400,17 +400,6 @@ body::after{
     .brokenBulbPos {
         right: 6vw;
     }
-    /* .bulb1 {
-        background-image: url(../screen3/Screen3Imgs/bulb1.png);
-        height: 22vh;
-        width: 13vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        transform-origin: top;
-        transition: all .5s ease-in-out;
-    } */
     .bulb1 {
         display: none;
     }
@@ -425,18 +414,11 @@ body::after{
         transform-origin: top;
         transition: all .5s ease-in-out;
     }
-    /* .bulb1:hover {
-        background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
-        -webkit-animation: slowWiggle 3s ease-in-out infinite;
-        animation: slowWiggle 3s ease-in-out infinite;
-    } */
     .bulb1M:hover {
         background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
         -webkit-animation: slowWiggle 3s ease-in-out infinite;
         animation: slowWiggle 3s ease-in-out infinite;
     }
-
-
     
     .bulb2:hover {
         background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
@@ -500,6 +482,98 @@ body::after{
         display: block;
     }
     .bulb1 {
+        display: none;
+    }
+}
+
+@media (max-height: 550px) { 
+    .innerContainer3 {
+        top: 1px;
+        height: 120px;
+        width: 100vw;
+    }
+    
+    .bulbContainer1 {
+        height: 120px;
+        width: 71px;
+    }
+    
+    .bulbContainer2 {
+        height: 120px;
+        width: 71px;
+    }
+    
+    .bulbContainer3 {
+        height: 120px;
+        width: 71px;
+    }
+    
+    .bulbPos1 {
+        left: 28vw;
+    }
+    
+    .brokenBulbPos {    
+        right: 28vw;
+    }
+    .bulb1 {
+        background-image: url(../screen3/Screen3Imgs/bulb1.png);
+        height: 120px;
+        width: 71px;
+    }
+    
+    .bulb1M {
+        /* background-color: brown; */
+        background-image: url(../screen3/Screen3Imgs/bulb1.png);
+        height: 120px;
+        width: 71px;
+    }
+    
+    .bulb1Lit {
+        background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+        height: 120px;
+        width: 71px;
+        left: -5000px
+    
+    }
+    .bulb2 {
+        background-image: url(../screen3/Screen3Imgs/bulb2.png);
+        height: 120px;
+        width: 71px;
+    }
+    .bulb2Lit {
+        background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+        height: 120px;
+        width: 71px;
+        left: -5000px
+    
+    }
+    .brokenBulb {
+        background-image: url(../screen3/Screen3Imgs/brokenBulb.png);
+        height: 120px;
+        width: 80px;
+    }
+    .placeHolderText1 {
+        font-size: 73px;
+        letter-spacing: 3px;
+        height: 65px;
+        width: 40vw;
+        left: 30vw;
+        top: 275px;
+    }
+    
+     .scrutinyContainer {
+        width: 75vw;
+        height: 350px;
+        top: 140px;
+     }
+    
+     .siteContainer {
+        width: 75vw;
+        height: 350px;
+        top: 140px;
+     }
+    
+     .scrutinyLogoHolder {
         display: none;
     }
 }

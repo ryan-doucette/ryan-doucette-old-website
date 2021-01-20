@@ -114,3 +114,33 @@
         font-size: 2.5vh;
     }
 }
+
+@media (max-height: 550px) { 
+    .siteText {
+        letter-spacing: 3px;
+        margin-left: 3vw;
+    }
+    .siteTitle {
+        margin-top: 25px;
+        width: 69vw;
+        font-size: 35px;
+    }
+    .siteSubTitle {
+        letter-spacing: 4px;
+        margin-top: 5px;
+        width: 69vw;
+        font-size: 25px;
+    }
+    .siteDesc {
+        letter-spacing: 2px;
+        margin-top: 4.5px;
+        width: 69vw;
+        font-size: 15px;
+    }
+    .siteInfo {
+        letter-spacing: 1.25px;
+        margin-top: 20px;
+        width: 69vw;
+        font-size: 17px;
+    }
+}

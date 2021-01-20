@@ -143,6 +143,26 @@
     }
 }
 
+/* breakpoint 5: icon container position icon sizing */
+@media (max-height: 550px) {
+    .IconsContainer {
+        top: 240px;
+        left: 220px; 
+    }
+    .MailContainer {
+        height: 30px;
+        width: 30px;
+    }
+    .LIContainer {
+        height: 30px;
+        width: 30px;
+    }
+    .GHContainer {
+        height: 30px;
+        width: 30px;
+    }
+}
+
 .grow:hover {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);

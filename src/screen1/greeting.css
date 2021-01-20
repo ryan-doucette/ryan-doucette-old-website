@@ -125,3 +125,29 @@
         left: 60px;
     }
 }
+
+@media (max-height: 550px) { 
+    .textStyle {  
+        font-size: 24px;
+        letter-spacing: 2.5px;
+        left: 130px;
+    }
+    .textPos1 {
+        top: 45px;
+    }
+    .textPos2 {
+        top: 80px;
+    }
+    .textPos3 {
+        top: 115px;
+    }
+    .textPos4 {
+        top: 360px;
+    }
+    .textPos5 {
+        top: 415px;
+    }
+    .textPos6 {
+        top: 470px;
+    }
+}

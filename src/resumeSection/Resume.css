@@ -1,6 +1,6 @@
 .entireSection {
     width: 100vw;
-    height: 40vh;
+    height: 100%
 }
 
 .resumeSectionContainer {
@@ -308,5 +308,114 @@
     }
     .leftTextContainer {
         height: 24.9vh;
+    }
+}
+
+@media (max-height: 550px) {
+    .resumeSectionContainer {
+        top: 0.5px;
+        width: 100vw;
+        height: 215px;
+        /* height: 100%;s */
+    }
+    
+    .resumeContainer {
+        width: 184px;
+        height: 184px;
+    }
+    
+    .resume {
+        background-image: url(../resumeSection/resumePics/resume.png);
+        width: 162px;
+        height: 162px;
+    }
+    
+    .decor {
+        width: 162px;
+        height: 162px;
+        background-image: url(../resumeSection/resumePics/decor.png);
+    }
+    
+    .resumeTrigger {
+        width: 75px;
+        height: 100px;
+    }
+    
+    .bottomPageTextStyle {
+        font-size: 15px;
+        letter-spacing: 2.5px;
+    }
+    
+    .leftTextContainer {
+        left: 5vw;
+        width: 33vw;
+    }
+    
+    .thanks {
+        width: 31vw;
+    }
+    
+    .resumeText {
+        width: 31vw;
+    }
+    
+    .rightTextContainer {
+        right: 5vw;
+        width: 33vw;
+    }
+}
+
+@media (max-height: 550px) and (min-height: 907px) {
+    .resumeSectionContainer {
+        background-color: red;
+        top: 0.5px;
+        width: 100vw;
+        height: 215px;
+        /* height: 100%;s */
+    }
+    
+    .resumeContainer {
+        width: 184px;
+        height: 184px;
+    }
+    
+    .resume {
+        background-image: url(../resumeSection/resumePics/resume.png);
+        width: 162px;
+        height: 162px;
+    }
+    
+    .decor {
+        width: 162px;
+        height: 162px;
+        background-image: url(../resumeSection/resumePics/decor.png);
+    }
+    
+    .resumeTrigger {
+        width: 75px;
+        height: 100px;
+    }
+    
+    .bottomPageTextStyle {
+        font-size: 15px;
+        letter-spacing: 2.5px;
+    }
+    
+    .leftTextContainer {
+        left: 5vw;
+        width: 33vw;
+    }
+    
+    .thanks {
+        width: 31vw;
+    }
+    
+    .resumeText {
+        width: 31vw;
+    }
+    
+    .rightTextContainer {
+        right: 5vw;
+        width: 33vw;
     }
 }
