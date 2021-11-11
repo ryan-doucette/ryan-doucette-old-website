@@ -13,7 +13,7 @@ class Resume extends Component {
                     </div>
                     <div className='resumeContainer'>
                         <div className='resume'>
-                            <a className='resumeTrigger' href='https://github.com/ryan-doucette/ryan-doucette-resume/blob/master/Ryan%20Doucette%20Resume%202021.pdf' target="_blank" rel="noopener noreferrer" style={{ color: 'transparent' }}>.</a>
+                            <a className='resumeTrigger' href='https://github.com/ryan-doucette/ryan-doucette-resume/blob/master/Ryan%20Doucette%20Resume%202021-2022.pdf' target="_blank" rel="noopener noreferrer" style={{ color: 'transparent' }}>.</a>
                             {/* This URL version will auto download resume when clicked on https://github.com/ryan-doucette/ryan-doucette-resume/blob/master/Ryan%20Doucette%20Resume%202021.pdf?raw=true */}
                             <div className='decor'></div>
                         </div>

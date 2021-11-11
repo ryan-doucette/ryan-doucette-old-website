@@ -48,7 +48,7 @@ class Screen2 extends Component {
                     <div className='skillContainer'>
                         <div className='codeStyle'>
                             <div className='skillHeadStyle'>CODE</div>
-                            <div className='skillListStyle'>- Java<br></br>- CSS<br></br>- JavaScript<br></br>- SQL<br></br>- React<br></br>- Python<br></br>- HTML</div>
+                            <div className='skillListStyle'>- JavaScript<br></br>- TypeScript<br></br>- React<br></br>- Angular<br></br>- Python<br></br>- Java<br></br>- SQL</div>
                         </div>
                         <div className='designStyle'>
                             <div className='skillHeadStyle'>DESIGN</div>
@@ -56,7 +56,7 @@ class Screen2 extends Component {
                         </div>
                         <div className='otherStyle'>
                             <div className='skillHeadStyle'>OTHER</div>
-                            <div className='skillListStyle'>- MS Office Suite<br></br>- Jira<br></br>- Git<br></br>- JUnit<br></br>- LaTeX<br></br>- IntelliJ<br></br>- Visual Studio Code</div>
+                            <div className='skillListStyle'>- Jira<br></br>- Git<br></br>- Figma<br></br>- Visual Studio Code<br></br>- MS Office Suite<br></br>- IntelliJ<br></br>- JUnit</div>
                         </div>
                     </div>
 

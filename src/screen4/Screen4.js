@@ -10,12 +10,12 @@ class Screen4 extends Component {
             <div className='container' style={{ height: '100vh', width: '100vw' }}>
                 <div className='innerContainer4'>
                     <div className='allButtons button1'>
-                        <div className='ssButton'></div>
-                        <div className='ssButtonB'></div>
-                    </div>
-                    <div className='allButtons button2'>
                         <div className='enozoButton'></div>
                         <div className='enozoButtonB'></div>
+                    </div>
+                    <div className='allButtons button2'>
+                        <div className='ssButton'></div>
+                        <div className='ssButtonB'></div>
                     </div>
                     <div className='allBorder leftBorder'></div>
                     <div className='allBorder rightBorder'></div>
@@ -23,7 +23,7 @@ class Screen4 extends Component {
                     <div className='allBorder bottomBorder'></div>
                     <div className='overflowLeftBlock'></div>
                     <div className='overflowRightBlock'></div>
-                    <div className='ssga'>
+                    <div className='work2'>
                         <div className='screen4Title screen4Text'>State Street Global Advisors</div>
                         <div className='screen4SubTitle screen4Text' >Database Engineering Architecture Project Manager Co-op</div>
                         <div className='screen4SubTitle screen4Text' >July - December 2020</div>
@@ -34,15 +34,14 @@ class Screen4 extends Component {
                             <li>Oversaw program execution and timely delivery</li>
                         </ul>
                     </div>
-                    <div className='enozo'>
-                        <div className='screen4Title screen4Text'>Enozo Technologies</div>
-                        <div className='screen4SubTitle screen4Text'>Engineering Intern</div>
-                        <div className='screen4SubTitle screen4Text'>Summers 2017 - 2020</div>
+                    <div className='work1'>
+                        <div className='screen4Title screen4Text'>Blueport Commerce</div>
+                        <div className='screen4SubTitle screen4Text'>Frontend Developer Co-op</div>
+                        <div className='screen4SubTitle screen4Text'>July - December 2021</div>
                         <ul className='screen4Desc screen4Text'>
-                            <li>Collected data on returned parts, as well as identified and resolved quality issues</li>
-                            <li>Developed and assembled commercial ice filters and circuit boards for industrial units, this process included quality assurance testing</li>
-                            <li>Programmed different software into commercial ice filters based on their model</li>
-                            <li>Assembled and packaged commercial ice filters</li>
+                            <li>Implemented reusable components using Angular and TypeScript within a multi-tenant architecture</li>
+                            <li>Leveraged RxJS observables with data from cloud API endpoints to manage the state of the application</li>
+                            <li>Created and styled Angular templates through clean and organized SCSS and HTML</li>
                         </ul>
                     </div>
                     <div className='placeHolderText2'>WORK</div>

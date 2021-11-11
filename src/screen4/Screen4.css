@@ -1,388 +1,392 @@
 .allButtons {
-    position: absolute;
-    width: 12vh;
-    height: 12vh;
-    z-index: 100;
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  z-index: 100;
 }
 .button1 {
-    /* background-color:red; */
-    top: 4vh;
-    left: 33vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    transition: all .5s ease-in-out;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.35vh;
+  /* background-color:red; */
+  top: 4vh;
+  left: 33vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.35vh;
 }
 
 .ssButton {
-    width: 10vh;
-    height: 10vh;
-    margin-bottom: 0.5vh;
-    background-image: url(../screen4/Screen4Imgs/stateStreetLogoW.png);
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    transition: all .5s ease-in-out;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 0.5vh;
+  background-image: url(../screen4/Screen4Imgs/stateStreetLogoW.png);
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ssButtonB {
-    position: absolute;
-    left: -1050px;
-    width: 10vh;
-    height: 10vh;
-    margin-bottom: 0.5vh;
-    background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: absolute;
+  left: -1050px;
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 0.5vh;
+  background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button2 {
-    /* background-color:blue; */
-    right: 33vw;
-    top: 4vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    transition: all .5s ease-in-out;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.35vh;
+  /* background-color:blue; */
+  right: 33vw;
+  top: 4vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.35vh;
 }
 
 .enozoButton {
-    width: 10vh;
-    height: 10vh;
-    background-image: url(../screen4/Screen4Imgs/enozoLogoW.png);
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    transition: all .5s ease-in-out;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 10vh;
+  height: 10vh;
+  background-image: url(../screen4/Screen4Imgs/blueportLogoW.png);
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .enozoButtonB {
-    position: absolute;
-    left: -1000px;
-    width: 10vh;
-    height: 10vh;
-    background-image: url(../screen4/Screen4Imgs/enozoLogoB.png);
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    transition: all .5s ease-in-out;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: absolute;
+  left: -1000px;
+  width: 10vh;
+  height: 10vh;
+  background-image: url(../screen4/Screen4Imgs/blueportLogoB.png);
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .innerContainer4 {
-    position: relative;
-    top: 0.1vh;
-    height: 99.9vh;
-    width: 100vw;
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+  position: relative;
+  top: 0.1vh;
+  height: 99.9vh;
+  width: 100vw;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.ssga {
-    background-color: transparent;
-    top:24vh;
-    position: absolute;
-    height: 62vh;
-    width: 68vw;
-    transition: all .7s ease-in-out;
-    opacity: 0;
-    flex-direction: column;
-    justify-content: flex-start;
-    display: flex;
+.work1 {
+  background-color: transparent;
+  top: 24vh;
+  position: absolute;
+  height: 62vh;
+  width: 68vw;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
 }
 
-.enozo {
-    background-color: transparent;
-    top:24vh;
-    position: absolute;
-    height: 62vh;
-    width: 68vw;
-    transition: all .7s ease-in-out;
-    opacity: 0;
-    flex-direction: column;
-    justify-content: left;
-    display: flex;
+.work2 {
+  background-color: transparent;
+  top: 24vh;
+  position: absolute;
+  height: 62vh;
+  width: 68vw;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+  flex-direction: column;
+  justify-content: left;
+  display: flex;
 }
 
 .allBorder {
-    background-color: #212121;
-    position: absolute;
-    border-style: solid;
-    border-width: 4px;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    transition: all .7s ease-in-out;
+  background-color: #212121;
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  transition: all 0.7s ease-in-out;
 }
 
 .topBorder {
-    top: 17.6vh;
-    left: 14.2vw;
-    height: 3.5vh;
-    width: 0vw;
+  top: 17.6vh;
+  left: 14.2vw;
+  height: 3.5vh;
+  width: 0vw;
 }
 
 .overflowLeftBlock {
-    background-color: #212121;
-    position: absolute;
-    top: 0.1vh;
-    left: 0vw;
-    height: 90vh;
-    width: 13.75vw;
-    transition: all .7s ease-in-out;
+  background-color: #212121;
+  position: absolute;
+  top: 0.1vh;
+  left: 0vw;
+  height: 90vh;
+  width: 13.75vw;
+  transition: all 0.7s ease-in-out;
 
-    border-style: solid;
-    border-width: 4px;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: #212121;
+  border-style: solid;
+  border-width: 4px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #212121;
 }
 
 .bottomBorder {
-    bottom: 6.1vh;
-    left: 85.8vw;
-    height: 4vh;
-    width: 0vw;
-    transform: rotateY(180deg);
-    transform-origin: left;
+  bottom: 6.1vh;
+  left: 85.8vw;
+  height: 4vh;
+  width: 0vw;
+  transform: rotateY(180deg);
+  transform-origin: left;
 }
 
 .overflowRightBlock {
-    background-color: #212121;
-    position: absolute;
-    top: 0.1vh;
-    right: 0vw;
-    height: 90vh;
-    width: 13.75vw;
-    transition: all .7s ease-in-out;
+  background-color: #212121;
+  position: absolute;
+  top: 0.1vh;
+  right: 0vw;
+  height: 90vh;
+  width: 13.75vw;
+  transition: all 0.7s ease-in-out;
 
-    border-style: solid;
-    border-width: 4px;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color:  #212121;
-    border-right-color: transparent;
+  border-style: solid;
+  border-width: 4px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #212121;
+  border-right-color: transparent;
 }
 
 .leftBorder {
-    top: 89.5vh;
-    left: 0vw;
-    height: 0vh;
-    width: 14vw;
-    transform: rotateX(180deg);
-    transform-origin: top;
+  top: 89.5vh;
+  left: 0vw;
+  height: 0vh;
+  width: 14vw;
+  transform: rotateX(180deg);
+  transform-origin: top;
 }
 
 .rightBorder {
-    position: absolute;
-    top: 20.5vh;
-    right: 0vw;
-    height: 0vh;
-    width: 14vw;
+  position: absolute;
+  top: 20.5vh;
+  right: 0vw;
+  height: 0vh;
+  width: 14vw;
 }
 
 @media (max-width: 1235px) {
-    .overflowLeftBlock {
-        width: 13.65vw;
-    }
+  .overflowLeftBlock {
+    width: 13.65vw;
+  }
 
-    .overflowRightBlock {
-        width: 13.65vw;
-    }
+  .overflowRightBlock {
+    width: 13.65vw;
+  }
 }
 
 @media (max-width: 985px) {
-    .overflowLeftBlock {
-        width: 13.55vw;
-    }
+  .overflowLeftBlock {
+    width: 13.55vw;
+  }
 
-    .overflowRightBlock {
-        width: 13.55vw;
-    }
+  .overflowRightBlock {
+    width: 13.55vw;
+  }
 }
 
 @media (max-width: 755px) {
-    .overflowLeftBlock {
-        width: 13.4vw;
-    }
+  .overflowLeftBlock {
+    width: 13.4vw;
+  }
 
-    .overflowRightBlock {
-        width: 13.4vw;
-    }
+  .overflowRightBlock {
+    width: 13.4vw;
+  }
 }
 
 @media (max-width: 655px) {
-    .overflowLeftBlock {
-        width: 13.3vw;
-    }
+  .overflowLeftBlock {
+    width: 13.3vw;
+  }
 
-    .overflowRightBlock {
-        width: 13.3vw;
-    }
+  .overflowRightBlock {
+    width: 13.3vw;
+  }
 }
 
 @media (max-width: 500px) {
-    .overflowLeftBlock {
-        width: 13.2vw;
-    }
+  .overflowLeftBlock {
+    width: 13.2vw;
+  }
 
-    .overflowRightBlock {
-        width: 13.2vw;
-    }
+  .overflowRightBlock {
+    width: 13.2vw;
+  }
 }
 
 @media (max-width: 450px) {
-    .overflowLeftBlock {
-        width: 13vw;
-    }
+  .overflowLeftBlock {
+    width: 13vw;
+  }
 
-    .overflowRightBlock {
-        width: 13vw;
-    }
+  .overflowRightBlock {
+    width: 13vw;
+  }
 }
 
 .button1:hover {
-    background-color: white;
-    border-radius:50%;
+  background-color: white;
+  border-radius: 50%;
 }
 
-body::after{
-    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-    content:url(../screen4/Screen4Imgs/stateStreetLogoB.png) url(../screen4/Screen4Imgs/enozoLogoB.png);
- }
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(../screen4/Screen4Imgs/stateStreetLogoB.png)
+    url(../screen4/Screen4Imgs/enozoLogoB.png);
+}
 
-.button1:hover .ssButton {
-    background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
+.button1:hover .enozoButton {
+  background-image: url(../screen4/Screen4Imgs/blueportLogoB.png);
 }
 
 .button2:hover {
-    background-color: white;
-    border-radius:50%;
+  background-color: white;
+  border-radius: 50%;
 }
 
-.button2:hover .enozoButton {
-    background-image: url(../screen4/Screen4Imgs/enozoLogoB.png);
+.button2:hover .ssButton {
+  background-image: url(../screen4/Screen4Imgs/stateStreetLogoB.png);
 }
 
 .allButtons:hover ~ .topBorder {
-    width: 71.1vw;
-    border-bottom-color: white;
+  width: 71.1vw;
+  border-bottom-color: white;
 }
 .allButtons:hover ~ .bottomBorder {
-    width: 71.1vw;
-    border-top-color: white;
+  width: 71.1vw;
+  border-top-color: white;
 }
 .allButtons:hover ~ .leftBorder {
-    height: 68vh;
-    border-right-color: white;
+  height: 68vh;
+  border-right-color: white;
 }
 .allButtons:hover ~ .rightBorder {
-    height: 68vh;
-    border-left-color: white;
+  height: 68vh;
+  border-left-color: white;
 }
 
-.button1:hover ~ .ssga {
-    opacity: 1;
+.button1:hover ~ .work1 {
+  opacity: 1;
 }
 .button1:hover ~ .placeHolderText2 {
-    opacity: 0;
+  opacity: 0;
 }
-.button2:hover ~ .enozo {
-    opacity: 1;
+.button2:hover ~ .work2 {
+  opacity: 1;
 }
 .button2:hover ~ .placeHolderText2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .placeHolderText2 {
+  position: absolute;
+  font-family: "Helvetica";
+  font-weight: 100;
+  font-size: 13vh;
+  letter-spacing: 0.3vh;
+  color: rgba(0, 0, 0, 0.413);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 40vw;
+  display: flex;
+  left: 30vw;
+  top: 42.5vh;
+  transition: all 0.3s ease-in-out;
+}
 
-    position: absolute;
-    font-Family: 'Helvetica';
-    font-weight: 100;
-    font-size: 13vh;
+@media (max-width: 1120px) {
+  .placeHolderText2 {
+    font-size: 12vh;
     letter-spacing: 0.3vh;
-    color: rgba(0, 0, 0, 0.413);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    width: 40vw;
-    display: flex;
+  }
+  .button1 {
     left: 30vw;
-    top: 42.5vh;
-    transition: all .3s ease-in-out;
+  }
+  .button2 {
+    right: 30vw;
+  }
 }
 
-@media (max-width: 1120px) { 
-    .placeHolderText2 {
-        font-size: 12vh;
-        letter-spacing: 0.3vh;
-    }
-    .button1 {
-        left: 30vw;
-    }
-    .button2 {
-        right: 30vw;
-    }
+@media (max-width: 950px) {
+  .placeHolderText2 {
+    font-size: 10vh;
+    letter-spacing: 0.3vh;
+  }
+  .button1 {
+    left: 22vw;
+  }
+  .button2 {
+    right: 22vw;
+  }
 }
 
-@media (max-width: 950px) { 
-    .placeHolderText2 {
-        font-size: 10vh;
-        letter-spacing: 0.3vh;
-    }
-    .button1 {
-        left: 22vw;
-    }
-    .button2 {
-        right: 22vw;
-    }
+@media (max-width: 602px) {
+  .placeHolderText2 {
+    font-size: 7.5vh;
+    letter-spacing: 0.2vh;
+  }
+  .button1 {
+    left: 15vw;
+  }
+  .button2 {
+    right: 15vw;
+  }
 }
 
-@media (max-width: 602px) { 
-    .placeHolderText2 {
-        font-size: 7.5vh;
-        letter-spacing: 0.2vh;
-    }
-    .button1 {
-        left: 15vw;
-    }
-    .button2 {
-        right: 15vw;
-    }
-}
-
-@media (max-width: 1200px) and (min-height: 875px) {  
-    .placeHolderText2 {
-        font-size: 7.5vh;
-        letter-spacing: 0.2vh;
-    }
-    .button1 {
-        left: 15vw;
-    }
-    .button2 {
-        right: 15vw;
-    }
+@media (max-width: 1200px) and (min-height: 875px) {
+  .placeHolderText2 {
+    font-size: 7.5vh;
+    letter-spacing: 0.2vh;
+  }
+  .button1 {
+    left: 15vw;
+  }
+  .button2 {
+    right: 15vw;
+  }
 }

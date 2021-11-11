@@ -1,505 +1,530 @@
 .innerContainer3 {
-    position: relative;
-    top: 0.1vh;
-    height: 22vh;
-    width: 100vw;
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+  position: relative;
+  top: 0.1vh;
+  height: 22vh;
+  width: 100vw;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .bulbContainer1 {
-    position: absolute;
-    height: 22vh;
-    width: 13vh;
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    transition: all .5s ease-in-out;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 100;
+  position: absolute;
+  height: 22vh;
+  width: 13vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
 }
 
 .bulbContainer2 {
-    position: absolute;
-    height: 22vh;
-    width: 13vh;
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    transition: all .5s ease-in-out;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 100;
+  position: absolute;
+  height: 22vh;
+  width: 13vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
 }
 
 .bulbContainer3 {
+  position: absolute;
+  height: 22vh;
+  width: 13vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
+
+.bulbPos1 {
+  left: 28vw;
+}
+
+.bulbPos3 {
+  right: 28vw;
+}
+.bulb1 {
+  background-image: url(../screen3/Screen3Imgs/bulb1.png);
+  height: 22vh;
+  width: 13vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+  /* background-color: turquoise; */
+  z-index: 2;
+}
+
+.bulb1M {
+  background-image: url(../screen3/Screen3Imgs/bulb1.png);
+  height: 22vh;
+  width: 13vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.bulb2M {
+  background-image: url(../screen3/Screen3Imgs/bulb1.png);
+  height: 22vh;
+  width: 13vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.bulb1Lit {
+  background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+  height: 22vh;
+  width: 13vh;
+  position: absolute;
+  left: -5000px;
+}
+.bulb2 {
+  background-image: url(../screen3/Screen3Imgs/bulb1.png);
+  height: 22vh;
+  width: 13vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+}
+.bulb2Lit {
+  background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+  height: 22vh;
+  width: 13vh;
+  position: absolute;
+  left: -5000px;
+}
+.bulb3 {
+  background-image: url(../screen3/Screen3Imgs/bulb2.png);
+  height: 22vh;
+  width: 13vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+  /* background-color: turquoise; */
+  z-index: 2;
+}
+.bulb3Lit {
+  background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+  height: 22vh;
+  width: 13vh;
+  position: absolute;
+  left: -5000px;
+}
+.placeHolderText1 {
+  position: absolute;
+  font-family: "Helvetica";
+  font-weight: 100;
+  font-size: 13vh;
+  /* letter-spacing: 0.3vh; */
+  color: rgba(0, 0, 0, 0.413);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 40vw;
+  display: flex;
+  left: 30vw;
+  top: 42.5vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.bulb1:hover {
+  background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+  -webkit-animation: slowWiggle 3s ease-in-out infinite;
+  animation: slowWiggle 3s ease-in-out infinite;
+}
+
+.bulb1M:hover {
+  /* background-color: purple; */
+  -webkit-animation: slowWiggle 3s ease-in-out infinite;
+  animation: slowWiggle 3s ease-in-out infinite;
+}
+
+.bulb2M:hover {
+  /* background-color: purple; */
+  -webkit-animation: slowWiggle 3s ease-in-out infinite;
+  animation: slowWiggle 3s ease-in-out infinite;
+}
+
+.linkTarget {
+  position: absolute;
+  top: 8vh;
+  display: none;
+  height: 10vh;
+  width: 10vh;
+}
+
+.bulb2:hover {
+  background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
+  -webkit-animation: slowWiggle 3s ease-in-out infinite;
+  animation: slowWiggle 3s ease-in-out infinite;
+}
+
+.bulb3:hover {
+  background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
+  -webkit-animation: slowWiggle 3s ease-in-out infinite;
+  animation: slowWiggle 3s ease-in-out infinite;
+}
+
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(../screen3/Screen3Imgs/bulbLit2.png)
+    url(../screen3/Screen3Imgs/bulbLit1.png);
+}
+
+.ruumzyContainer {
+  width: 75vw;
+  height: 63vh;
+  position: absolute;
+  top: 26vh;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  justify-content: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.scrutinyContainer {
+  /* width: 130vh; */
+  width: 75vw;
+  height: 63vh;
+  position: absolute;
+  top: 26vh;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  justify-content: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.siteContainer {
+  width: 75vw;
+  height: 63vh;
+  position: absolute;
+  top: 26vh;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  justify-content: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.bulbPos1:hover ~ .ruumzyContainer {
+  opacity: 1;
+}
+.bulbPos1:hover ~ .placeHolderText1 {
+  opacity: 0;
+}
+
+.bulbPos2:hover ~ .scrutinyContainer {
+  opacity: 1;
+}
+.bulbPos2:hover ~ .placeHolderText1 {
+  opacity: 0;
+}
+
+.bulbPos3:hover ~ .siteContainer {
+  opacity: 1;
+}
+.bulbPos3:hover ~ .placeHolderText1 {
+  opacity: 0;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  75% {
+    transform: rotate(7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes slowWiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1300px) {
+  .ruumzyContainer {
+    width: 75vw;
+  }
+  .scrutinyContainer {
+    width: 75vw;
+  }
+  .siteContainer {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 1120px) {
+  .bulbPos1 {
+    left: 23vw;
+  }
+  .bulbPos3 {
+    right: 23vw;
+  }
+  .placeHolderText1 {
+    font-size: 12vh;
+    /* letter-spacing: 0.3vh; */
+  }
+  .ruumzyContainer {
+    width: 75vw;
+  }
+  .scrutinyContainer {
+    width: 75vw;
+  }
+  .siteContainer {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .bulbPos1 {
+    left: 15vw;
+  }
+  .bulbPos3 {
+    right: 15vw;
+  }
+  .placeHolderText1 {
+    font-size: 10vh;
+    /* letter-spacing: 0.3vh; */
+  }
+  .ruumzyContainer {
+    width: 75vw;
+  }
+  .scrutinyContainer {
+    width: 75vw;
+  }
+  .siteContainer {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 602px) {
+  .bulbPos1 {
+    left: 6vw;
+  }
+  .bulbPos3 {
+    right: 6vw;
+  }
+  .placeHolderText1 {
+    font-size: 7.5vh;
+    /* letter-spacing: 0.2vh; */
+  }
+  .ruumzyContainer {
+    width: 85vw;
+  }
+  .scrutinyContainer {
+    width: 85vw;
+  }
+  .siteContainer {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .bulbContainer {
+    position: absolute;
+    height: 0vh;
+    width: 0vh;
+  }
+  .bulbPos1 {
+    left: 28vw;
+  }
+  .bulb1 {
+    background-image: none;
+    height: 0vh;
+    width: 0vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    transform-origin: top;
+    transition: all 0.5s ease-in-out;
+  }
+  .bulb2 {
+    background-image: none;
+    height: 0vh;
+    width: 0vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    transform-origin: top;
+    transition: all 0.5s ease-in-out;
+  }
+  .bulbContainer {
     position: absolute;
     height: 22vh;
     width: 13vh;
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
-}
-
-.bulbPos1 {
-    left: 28vw;
-}
-
-.brokenBulbPos {    
-    right: 28vw;
-}
-.bulb1 {
-    background-image: url(../screen3/Screen3Imgs/bulb1.png);
-    height: 22vh;
-    width: 13vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    transform-origin: top;
-    transition: all .5s ease-in-out;
-    /* background-color: turquoise; */
-    z-index: 2;
-}
-
-.bulb1M {
-    /* background-color: brown; */
-    background-image: url(../screen3/Screen3Imgs/bulb1.png);
-    height: 22vh;
-    width: 13vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+  .bulbPos1 {
+    left: 6vw;
+  }
+  .bulbPos3 {
+    right: 6vw;
+  }
+  .bulb1 {
     display: none;
-    transform-origin: top;
-    transition: all .5s ease-in-out;
-    /* background-color: turquoise; */
-    z-index: 2;
-}
+  }
+  .bulb2 {
+    display: none;
+  }
+  .bulb1M:hover {
+    background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
+  }
 
-.bulb1Lit {
-    background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
-    height: 22vh;
-    width: 13vh;
-    position: absolute;
-    left: -5000px
+  .bulb2M:hover {
+    background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
+  }
 
-}
-.bulb2 {
-    background-image: url(../screen3/Screen3Imgs/bulb2.png);
-    height: 22vh;
-    width: 13vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    transform-origin: top;
-    transition: all .5s ease-in-out;
-}
-.bulb2Lit {
-    background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
-    height: 22vh;
-    width: 13vh;
-    position: absolute;
-    left: -5000px
-
-}
-.brokenBulb {
-    background-image: url(../screen3/Screen3Imgs/brokenBulb.png);
-    height: 22vh;
-    width: 15vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    transform-origin: top;
-    transition: all .5s ease-in-out;
-}
-.placeHolderText1 {
-    position: absolute;
-    font-Family: 'Helvetica';
-    font-weight: 100;
-    font-size: 13vh;
-    letter-spacing: 0.3vh;
-    color: rgba(0, 0, 0, 0.413);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    width: 40vw;
-    display: flex;
-    left: 30vw;
-    top: 42.5vh;
-    transition: all .5s ease-in-out;
-}
-
-.bulb1:hover {
+  .bulb2:hover {
     background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
     -webkit-animation: slowWiggle 3s ease-in-out infinite;
     animation: slowWiggle 3s ease-in-out infinite;
+  }
+  .bulbPos1:hover ~ .ruumzyContainer {
+    opacity: 1;
+  }
+  .bulbPos1:hover ~ .placeHolderText1 {
+    opacity: 0;
+  }
+
+  .bulbPos2:hover ~ .scrutinyContainer {
+    opacity: 1;
+  }
+  .bulbPos2:hover ~ .placeHolderText1 {
+    opacity: 0;
+  }
+
+  .bulb1M {
+    display: block;
+  }
+
+  .bulb2M {
+    display: block;
+  }
 }
 
-.bulb1M:hover {
-    /* background-color: purple; */
+@media (max-width: 1200px) and (min-height: 875px) {
+  .bulbPos1 {
+    left: 6vw;
+  }
+  .bulbPos3 {
+    right: 6vw;
+  }
+  .placeHolderText1 {
+    font-size: 7.5vh;
+    /* letter-spacing: 0.2vh; */
+  }
+  .scrutinyContainer {
+    width: 85vw;
+    left: 14vw;
+  }
+  .siteContainer {
+    width: 85vw;
+    left: 14vw;
+  }
+  .ruumzyContainer {
+    width: 85vw;
+    left: 14vw;
+  }
+  .bulb1M:hover {
+    background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
     -webkit-animation: slowWiggle 3s ease-in-out infinite;
     animation: slowWiggle 3s ease-in-out infinite;
-}
+  }
 
-.linkTarget {
-    position: absolute;
-    top: 8vh;
+  .bulb2M:hover {
+    background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
+    -webkit-animation: slowWiggle 3s ease-in-out infinite;
+    animation: slowWiggle 3s ease-in-out infinite;
+  }
+
+  .bulb1M {
+    display: block;
+  }
+
+  .bulb2M {
+    display: block;
+  }
+
+  .bulb1 {
     display: none;
-    /* background-color: slateblue; */
-    height: 10vh;
-    width: 10vh;
-    /* z-index: 1; */
-}
+  }
 
-
-.bulb2:hover {
-    background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
-    -webkit-animation: slowWiggle 3s ease-in-out infinite;
-    animation: slowWiggle 3s ease-in-out infinite;
-}
-
-.brokenBulb:hover {
-    -webkit-animation: wiggle 1.5s ease;
-    animation: wiggle 1.5s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-
-body::after{
-    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-    content:url(../screen3/Screen3Imgs/bulbLit2.png) url(../screen3/Screen3Imgs/bulbLit1.png);  
- }
-
- .scrutinyContainer {
-    /* width: 130vh; */
-    width: 75vw;
-    height: 63vh;
-    position: absolute;
-    top: 26vh;
-    opacity: 0;
-    transition: all 0.7s ease-in-out;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
- }
-
- .siteContainer {
-    width: 75vw;
-    height: 63vh;
-    position: absolute;
-    top: 26vh;
-    opacity: 0;
-    transition: all 0.7s ease-in-out;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
- }
-
- .scrutinyLogoHolder {
-    opacity: 0;
-    position: absolute;
-    /* background-color: red; */
-    margin-top: 5vh;
-    left: 40vw;
-    top: 76vh;
-    width: 24vw;
-    height: 13vh;
-    display: flex;
-    justify-content: center;
-    transition: all .5s ease-in-out;
-    /* z-index: 2; */
-}
-
-.bulbPos1:hover ~ .scrutinyContainer {
-    opacity: 1;
-}
-.bulbPos1:hover ~ .placeHolderText1 {
-    opacity: 0;
-}
-
-.bulbPos2:hover ~ .siteContainer {
-    opacity: 1;
-}
-.bulbPos2:hover ~ .placeHolderText1 {
-    opacity: 0;
-}
-
-@keyframes wiggle {
-    0% 
-    {
-        transform: rotate(0deg);
-    }
-    25%
-    {
-        transform: rotate(7deg);
-    }
-    50% 
-    {
-        transform: rotate(-7deg);
-    }
-    75%
-    {
-        transform: rotate(7deg);
-    }
-    100%
-    {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes slowWiggle {
-    0% 
-    {
-        transform: rotate(0deg);
-    }
-    25%
-    {
-        transform: rotate(4deg);
-    }
-    50%
-    {
-        transform: rotate(-4deg);
-    }
-    75%
-    {
-        transform: rotate(4deg);
-    }
-    100%
-    {
-        transform: rotate(0deg);
-    }
-}
-
-@media (max-width: 1300px) { 
-    .scrutinyContainer {
-        width: 75vw;
-    }
-    .siteContainer {
-        width: 75vw;
-    }
-}
-
-@media (max-width: 1120px) { 
-    .bulbPos1 {
-        left: 23vw;
-    }
-    .brokenBulbPos {
-        right: 23vw;
-    }
-    .placeHolderText1 {
-        font-size: 12vh;
-        letter-spacing: 0.3vh;
-    }
-    .scrutinyContainer {
-        width: 75vw;
-    }
-    .siteContainer {
-        width: 75vw;
-    }
-}
-
-@media (max-width: 950px) { 
-    .bulbPos1 {
-        left: 15vw;
-    }
-    .brokenBulbPos {
-        right: 15vw;
-    }
-    .placeHolderText1 {
-        font-size: 10vh;
-        letter-spacing: 0.3vh;
-    }
-    .scrutinyContainer {
-        width: 75vw;
-    }
-    .siteContainer {
-        width: 75vw;
-    }
-}
-
-@media (max-width: 602px) { 
-    .bulbPos1 {
-        left: 6vw;
-    }
-    .brokenBulbPos {
-        right: 6vw;
-    }
-    .placeHolderText1 {
-        font-size: 7.5vh;
-        letter-spacing: 0.2vh;
-    }
-    .scrutinyContainer {
-        width: 85vw;
-    }
-    .siteContainer {
-        width: 85vw;
-    }
-}
-
-@media (max-width: 425px) {
-    .bulbContainer {
-        position: absolute;
-        height: 0vh;
-        width: 0vh;
-    }
-    .bulbPos1 {
-        left: 28vw;
-    }
-    .bulb1 {
-        background-image: none;
-        height: 0vh;
-        width: 0vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        transform-origin: top;
-        transition: all .5s ease-in-out;
-    }
-    .bulb2 {
-        background-image: none;
-        height: 0vh;
-        width: 0vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        transform-origin: top;
-        transition: all .5s ease-in-out;
-    }
-    .bulbContainer {
-        position: absolute;
-        height: 22vh;
-        width: 13vh;
-        justify-content: center;
-        align-items: flex-start;
-        display: flex;
-        transition: all .5s ease-in-out;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 100;
-    }
-    .bulbPos1 {
-        left: 6vw;
-    }
-    .brokenBulbPos {
-        right: 6vw;
-    }
-    /* .bulb1 {
-        background-image: url(../screen3/Screen3Imgs/bulb1.png);
-        height: 22vh;
-        width: 13vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        transform-origin: top;
-        transition: all .5s ease-in-out;
-    } */
-    .bulb1 {
-        display: none;
-    }
-    .bulb2 {
-        background-image: url(../screen3/Screen3Imgs/bulb2.png);
-        height: 22vh;
-        width: 13vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        transform-origin: top;
-        transition: all .5s ease-in-out;
-    }
-    /* .bulb1:hover {
-        background-image: url(../screen3/Screen3Imgs/bulbLit1.png);
-        -webkit-animation: slowWiggle 3s ease-in-out infinite;
-        animation: slowWiggle 3s ease-in-out infinite;
-    } */
-    .bulb1M:hover {
-        background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
-        -webkit-animation: slowWiggle 3s ease-in-out infinite;
-        animation: slowWiggle 3s ease-in-out infinite;
-    }
-
-
-    
-    .bulb2:hover {
-        background-image: url(../screen3/Screen3Imgs/bulbLit2.png);
-        -webkit-animation: slowWiggle 3s ease-in-out infinite;
-        animation: slowWiggle 3s ease-in-out infinite;
-    }
-    .bulbPos1:hover ~ .scrutinyContainer {
-        opacity: 1;
-    }
-    .bulbPos1:hover ~ .placeHolderText1 {
-        opacity: 0;
-    }
-    
-    .bulbPos2:hover ~ .siteContainer {
-        opacity: 1;
-    }
-    .bulbPos2:hover ~ .placeHolderText1 {
-        opacity: 0;
-    }
-
-    .bulbPos1:hover ~ .scrutinyLogoHolder {
-        opacity: 1;
-    }
-
-    .bulb1M {
-        display: block;
-    }
-}
-
-@media (max-width: 1200px) and (min-height: 875px) { 
-    .bulbPos1 {
-        left: 6vw;
-    }
-    .brokenBulbPos {
-        right: 6vw;
-    }
-    .placeHolderText1 {
-        font-size: 7.5vh;
-        letter-spacing: 0.2vh;
-    }
-    .scrutinyContainer {
-        width: 85vw;
-        left: 14vw;
-    }
-    .siteContainer {
-        width: 85vw;
-        left: 14vw;
-    }
-
-    .bulb1M:hover {
-        background-image: url(../screen3/Screen3Imgs/bulb1LitM.png);
-        -webkit-animation: slowWiggle 3s ease-in-out infinite;
-        animation: slowWiggle 3s ease-in-out infinite;
-    }
-
-    .bulbPos1:hover ~ .scrutinyLogoHolder {
-        opacity: 1;
-    }
-
-    .bulb1M {
-        display: block;
-    }
-    .bulb1 {
-        display: none;
-    }
+  .bulb2 {
+    display: none;
+  }
 }

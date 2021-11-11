@@ -1,4 +1,4 @@
-.siteText {
+.ruumzyText {
   /* letter-spacing: 0.5vh; */
   margin-left: 3vw;
   color: white;
@@ -6,15 +6,15 @@
   transition: all 0.5s ease-in-out;
   overflow: hidden;
 }
-.siteTitle {
-  margin-top: 4.25vh;
+.ruumzyTitle {
+  margin-top: 3vh;
   width: 69vw;
-  font-size: 6vh;
+  font-size: 7vh;
   font-family: "Helvetica";
   font-weight: 100;
   transition: all 0.5s ease-in-out;
 }
-.siteSubTitle {
+.ruumzySubTitle {
   /* letter-spacing: 0.3vh; */
   margin-top: 1vh;
   width: 69vw;
@@ -23,7 +23,7 @@
   font-weight: 100;
   transition: all 0.5s ease-in-out;
 }
-.siteDesc {
+.ruumzyDesc {
   /* letter-spacing: 0.2vh; */
   margin-top: 2vh;
   width: 69vw;
@@ -32,7 +32,7 @@
   font-weight: 100;
   transition: all 0.5s ease-in-out;
 }
-.siteInfo {
+.ruumzyInfo {
   /* letter-spacing: 0.2vh; */
   margin-top: 4vh;
   width: 69vw;
@@ -43,74 +43,113 @@
 }
 
 @media (max-width: 1393px) {
-  .siteTitle {
+  .ruumzyTitle {
     font-size: 5.5vh;
   }
-  .siteSubTitle {
+  .ruumzySubTitle {
     font-size: 3.5vh;
   }
-  .siteInfo {
+  .ruumzyDesc {
+    font-size: 3vh;
+  }
+  .ruumzyInfo {
     font-size: 3vh;
   }
 }
 
 @media (max-width: 935px) {
-  .siteTitle {
-    font-size: 5vh;
+  .ruumzyTitle {
+    font-size: 6vh;
   }
-  .siteSubTitle {
+  .ruumzySubTitle {
     font-size: 3vh;
   }
-  .siteInfo {
+  .ruumzyDesc {
+    font-size: 2.5vh;
+  }
+  .ruumzyInfo {
     font-size: 2.5vh;
   }
 }
 
 @media (max-width: 770px) {
-  .siteTitle {
-    margin-top: 2.25vh;
-  }
-}
-
-@media (max-width: 655px) {
-  .siteTitle {
-    font-size: 4.5vh;
+  .ruumzyTitle {
+    margin-top: 1vh;
   }
 }
 
 @media (max-width: 602px) {
-  .siteText {
+  .ruumzyLogoHolder {
+    left: 39vw;
+    width: 22vw;
+  }
+  .ruumzyText {
     margin-left: 7vw;
   }
 }
 
 @media (max-width: 550px) {
-  .siteTitle {
-    font-size: 3.5vh;
+  .ruumzyTitle {
+    font-size: 4vh;
   }
-  .siteSubTitle {
-    font-size: 2.25vh;
+  .ruumzySubTitle {
+    font-size: 2.5vh;
   }
-  .siteInfo {
+  .ruumzyDesc {
     font-size: 2vh;
+  }
+  .ruumzyInfo {
+    font-size: 2vh;
+  }
+  .ruumzyLogo {
+    width: 10vh;
+    height: 10vh;
   }
 }
 
 @media (max-width: 500px) {
-  .siteTitle {
-    margin-top: 0.25vh;
+  .ruumzyTitle {
+    margin-top: -1vh;
+    font-size: 4.5vh;
+  }
+  .ruumzySubTitle {
+    font-size: 2.5vh;
+  }
+  .ruumzyDesc {
+    font-size: 1.8vh;
+  }
+  .ruumzyInfo {
+    font-size: 1.8vh;
+  }
+  .ruumzyLogo {
+    width: 9.5vh;
+    height: 9.5vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .ruumzyLogo {
+    display: block;
   }
 }
 
 @media (max-width: 1200px) and (min-height: 875px) {
-  .siteTitle {
+  .ruumzyTitle {
     margin-top: -1vh;
     font-size: 5vh;
   }
-  .siteSubTitle {
+  .ruumzySubTitle {
     font-size: 3vh;
   }
-  .siteInfo {
+  .ruumzyDesc {
     font-size: 2.5vh;
+  }
+  .ruumzyInfo {
+    font-size: 2.5vh;
+  }
+  .ruumzyLogo {
+    width: 9.5vh;
+    height: 9.5vh;
+    display: flex;
   }
 }
