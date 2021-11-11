@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da0525f7a31d69ef43fb4de95d77bdb5",
+    "revision": "b71169b5e91b30cb681d7ba99fa0f8ef",
     "url": "/index.html"
   },
   {
-    "revision": "19af958276d032a98cca",
-    "url": "/static/css/main.fce7ae5e.chunk.css"
+    "revision": "f281c8a8b828b208c4cd",
+    "url": "/static/css/main.ec91191c.chunk.css"
   },
   {
     "revision": "e2bd404737d8f99d5eb0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c06f66e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19af958276d032a98cca",
-    "url": "/static/js/main.7c34ab5d.chunk.js"
+    "revision": "f281c8a8b828b208c4cd",
+    "url": "/static/js/main.9d5cdba0.chunk.js"
   },
   {
     "revision": "4ac598fa20d7619937c8",
@@ -40,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LightningBolt.796befbf.png"
   },
   {
+    "revision": "d860259ad90d8f2a320600dcb124e959",
+    "url": "/static/media/blueportLogoB.d860259a.png"
+  },
+  {
+    "revision": "bc4eff55042b229a2bb4b64ccf395132",
+    "url": "/static/media/blueportLogoW.bc4eff55.png"
+  },
+  {
     "revision": "d8ad4de6b64387a0aa7f4b3474f83443",
     "url": "/static/media/bulb1LitM.d8ad4de6.png"
   },
@@ -58,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "363e8647a4eeff4de8585e56e837aa97",
     "url": "/static/media/enozoLogoB.363e8647.png"
-  },
-  {
-    "revision": "ce2ebae19dc32d08268eef1ef8df625c",
-    "url": "/static/media/enozoLogoW.ce2ebae1.png"
   },
   {
     "revision": "09440d3fac918e459be6a0e95ca0ad54",
